@@ -1,0 +1,81 @@
+---
+import { Image } from 'astro:assets'
+import Layout from '@/layouts/Layout.astro'
+import type { PlanetsInfo } from '@/types/Planet'
+import { slide } from 'astro:transitions'
+
+export async function getStaticPaths() {
+  const response = await fetch('https://api-sistemasolar.nijui.com/api/planets')
+
+  const { planets } = (await response.json()) as PlanetsInfo
+
+  function getPrevPlanet(index: number) {
+    if (index === 0) return null
+    return planets[index - 1]
+  }
+
+  function getNextPlanet(index: number) {
+    if (index === planets.length - 1) return null
+    return planets[index + 1]
+  }
+
+  const data = planets.map((planet, i) => {
+    return {
+      params: {
+        name: planet.name.toLowerCase(),
+      },
+      props: {
+        planet,
+        prevPlanet: getPrevPlanet(i),
+        nextPlanet: getNextPlanet(i),
+      },
+    }
+  })
+
+  return data
+}
+
+const { planet, prevPlanet, nextPlanet } = Astro.props
+---
+
+<Layout title={planet.name} description={planet.description} image={planet.png ?? ''}>
+  <div class='mx-auto flex min-h-dvh max-w-[1600px] flex-col gap-y-12 px-4'>
+    <h1 class='text-center text-7xl font-black uppercase'>{planet.name}</h1>
+    <Image
+      src={planet.webp!}
+      alt={planet.name}
+      transition:name={'planeta'}
+      inferSize
+      transition:animate={slide({ duration: '0.3s' })}
+      class='!max-h-[640px] w-auto max-w-full self-center'
+    />
+
+    <footer>
+      <div class='flex justify-between text-lg'>
+        {
+          prevPlanet && (
+            <a
+              href={`/planetas/${prevPlanet?.name.toLowerCase()}`}
+              class='flex items-center gap-x-2'
+            >
+              <Image src={prevPlanet.webp!} alt={prevPlanet.name} width={100} height={100} />
+              <span>{prevPlanet?.name}</span>
+            </a>
+          )
+        }
+
+        {
+          nextPlanet && (
+            <a
+              href={`/planetas/${nextPlanet?.name.toLowerCase()}`}
+              class='flex items-center gap-x-2'
+            >
+              <span>{nextPlanet?.name}</span>
+              <Image src={nextPlanet.webp!} alt={nextPlanet.name} width={100} height={100} />
+            </a>
+          )
+        }
+      </div>
+    </footer>
+  </div>
+</Layout>
