@@ -1,3 +1,95 @@
 html {
   color-scheme: dark;
 }
+
+@keyframes astroSlideFromRight {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes astroSlideFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes astroSlideToRight {
+  to {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes astroSlideToLeft {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes astroFadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes astroFadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+/* [data-astro-transition-scope="astro-xddts3wl-1"] {
+  view-transition-name: planeta;
+}
+@layer astro {
+  ::view-transition-old(planeta) {
+    animation-duration: 90ms, 220ms;
+    animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1),
+      cubic-bezier(0.76, 0, 0.24, 1);
+    animation-fill-mode: both, both;
+    animation-name: astroFadeOut, astroSlideToLeft;
+  }
+  ::view-transition-new(planeta) {
+    animation-duration: 210ms, 220ms;
+    animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1),
+      cubic-bezier(0.76, 0, 0.24, 1);
+    animation-delay: 30ms;
+    animation-fill-mode: both, both;
+    animation-name: astroFadeIn, astroSlideFromRight;
+  }
+  [data-astro-transition="back"]::view-transition-old(planeta) {
+    animation-name: astroFadeOut, astroSlideToRight;
+  }
+  [data-astro-transition="back"]::view-transition-new(planeta) {
+    animation-name: astroFadeIn, astroSlideFromLeft;
+  }
+}
+[data-astro-transition-fallback="old"]
+  [data-astro-transition-scope="astro-xddts3wl-1"],
+[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-xddts3wl-1"] {
+  animation-duration: 90ms, 220ms;
+  animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1),
+    cubic-bezier(0.76, 0, 0.24, 1);
+  animation-fill-mode: both, both;
+  animation-name: astroFadeOut, astroSlideToLeft;
+}
+[data-astro-transition-fallback="new"]
+  [data-astro-transition-scope="astro-xddts3wl-1"],
+[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-xddts3wl-1"] {
+  animation-duration: 210ms, 220ms;
+  animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1),
+    cubic-bezier(0.76, 0, 0.24, 1);
+  animation-delay: 30ms;
+  animation-fill-mode: both, both;
+  animation-name: astroFadeIn, astroSlideFromRight;
+}
+[data-astro-transition="back"][data-astro-transition-fallback="old"]
+  [data-astro-transition-scope="astro-xddts3wl-1"],
+[data-astro-transition="back"][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-xddts3wl-1"] {
+  animation-name: astroFadeOut, astroSlideToRight;
+}
+[data-astro-transition="back"][data-astro-transition-fallback="new"]
+  [data-astro-transition-scope="astro-xddts3wl-1"],
+[data-astro-transition="back"][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-xddts3wl-1"] {
+  animation-name: astroFadeIn, astroSlideFromLeft;
+} */

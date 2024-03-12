@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/Jean/Desktop/Projects/solar_system",
     "paths": {
       "@/*": [
         "src/*"
@@ -13,5 +13,7 @@
         "src/assets/*"
       ]
     },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }

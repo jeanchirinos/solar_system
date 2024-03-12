@@ -1,8 +1,11 @@
 ---
 import { Image } from 'astro:assets'
 import Layout from '@/layouts/Layout.astro'
+import { PlanetImage } from '@/components/PlanetImage'
 import type { PlanetsInfo } from '@/types/Planet'
-import { slide } from 'astro:transitions'
+import type { TransitionAnimationPair } from 'astro'
+// import { fade, slide } from 'astro:transitions'
+// import { slide } from 'astro:transitions'
 
 export async function getStaticPaths() {
   const response = await fetch('https://api-sistemasolar.nijui.com/api/planets')
@@ -35,47 +38,75 @@ export async function getStaticPaths() {
   return data
 }
 
+const animationForwards: TransitionAnimationPair = {
+  old: {
+    name: 'astroSlideToLeft,astroFadeOut',
+    duration: '0.3s',
+    // easing: 'linear',
+    fillMode: 'both,both',
+  },
+  new: {
+    name: 'astroSlideFromRight,astroFadeIn',
+    duration: '0.3s',
+    // easing: 'linear',
+    fillMode: 'both,both',
+  },
+}
+
+const animationBackwards: TransitionAnimationPair = {
+  old: {
+    name: 'astroSlideToRight,astroFadeOut',
+    duration: '0.3s',
+    // easing: 'linear',
+    fillMode: 'both,both',
+  },
+  new: {
+    name: 'astroSlideFromLeft,astroFadeIn',
+    duration: '0.3s',
+    // easing: 'linear',
+    fillMode: 'both,both',
+  },
+}
+
+const customSlideViewTransitionPrev = {
+  forwards: animationBackwards,
+  backwards: animationForwards,
+}
+
+const customSlideViewTransitionNext = {
+  forwards: animationForwards,
+  backwards: animationBackwards,
+}
+
 const { planet, prevPlanet, nextPlanet } = Astro.props
 ---
 
 <Layout title={planet.name} description={planet.description} image={planet.png ?? ''}>
-  <div class='mx-auto flex min-h-dvh max-w-[1600px] flex-col gap-y-12 px-4'>
+  <div class='mx-auto flex min-h-dvh max-w-[1600px] flex-col gap-y-12 px-4 py-2'>
     <h1 class='text-center text-7xl font-black uppercase'>{planet.name}</h1>
-    <Image
-      src={planet.webp!}
-      alt={planet.name}
-      transition:name={'planeta'}
-      inferSize
-      transition:animate={slide({ duration: '0.3s' })}
-      class='!max-h-[640px] w-auto max-w-full self-center'
-    />
 
-    <footer>
-      <div class='flex justify-between text-lg'>
-        {
-          prevPlanet && (
-            <a
-              href={`/planetas/${prevPlanet?.name.toLowerCase()}`}
-              class='flex items-center gap-x-2'
-            >
-              <Image src={prevPlanet.webp!} alt={prevPlanet.name} width={100} height={100} />
-              <span>{prevPlanet?.name}</span>
-            </a>
-          )
-        }
+    <PlanetImage client:load {prevPlanet} {nextPlanet}>
+      <Image
+        slot='prev'
+        loading='eager'
+        src={planet.webp!}
+        alt={planet.name}
+        transition:name='planeta'
+        inferSize
+        class='max-h-[640px] w-auto max-w-full self-center'
+        transition:animate={customSlideViewTransitionPrev}
+      />
 
-        {
-          nextPlanet && (
-            <a
-              href={`/planetas/${nextPlanet?.name.toLowerCase()}`}
-              class='flex items-center gap-x-2'
-            >
-              <span>{nextPlanet?.name}</span>
-              <Image src={nextPlanet.webp!} alt={nextPlanet.name} width={100} height={100} />
-            </a>
-          )
-        }
-      </div>
-    </footer>
+      <Image
+        slot='next'
+        loading='eager'
+        src={planet.webp!}
+        alt={planet.name}
+        transition:name='planeta_next'
+        inferSize
+        class='max-h-[640px] w-auto max-w-full self-center'
+        transition:animate={customSlideViewTransitionNext}
+      />
+    </PlanetImage>
   </div>
 </Layout>
