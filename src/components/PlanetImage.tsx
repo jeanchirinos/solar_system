@@ -77,13 +77,15 @@ export function PlanetImage(props: Props) {
                 ></path>
               </svg>
 
-              <img
-                src={prevPlanet.webp!}
-                alt={prevPlanet.name}
-                width={100}
-                height={100}
-              />
-              <span>{prevPlanet?.name}</span>
+              <div className="flex items-center gap-x-2 gap-y-1 max-sm:w-16 max-sm:flex-col">
+                <img
+                  src={prevPlanet.webp!}
+                  alt={prevPlanet.name}
+                  width={100}
+                  height={100}
+                />
+                <span>{prevPlanet?.name}</span>
+              </div>
             </a>
           )}
 
@@ -93,13 +95,15 @@ export function PlanetImage(props: Props) {
               href={`/planetas/${nextPlanet?.name.toLowerCase()}`}
               className="ml-auto flex items-center gap-x-2 transition-transform hover:scale-105"
             >
-              <span>{nextPlanet?.name}</span>
-              <img
-                src={nextPlanet.webp!}
-                alt={nextPlanet.name}
-                width={100}
-                height={100}
-              />
+              <div className="flex items-center gap-x-2 gap-y-1 max-sm:w-16 max-sm:flex-col">
+                <img
+                  src={nextPlanet.webp!}
+                  alt={nextPlanet.name}
+                  width={100}
+                  height={100}
+                />
+                <span className="sm:order-0">{nextPlanet?.name}</span>
+              </div>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
