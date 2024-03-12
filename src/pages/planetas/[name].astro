@@ -76,7 +76,7 @@ const { planet, prevPlanet, nextPlanet } = Astro.props
 ---
 
 <Layout title={planet.name} description={planet.description} image={planet.png ?? ''}>
-  <div class='mx-auto flex h-dvh max-h-[1000px] max-w-[1600px] flex-col gap-y-12 px-4 py-2'>
+  <div class='mx-auto flex min-h-dvh max-w-[1600px] flex-col gap-y-12 px-4 py-2'>
     <h1 class='text-center text-4xl font-black uppercase sm:text-6xl'>{planet.name}</h1>
 
     <PlanetImage client:load {prevPlanet} {nextPlanet}>
@@ -87,7 +87,7 @@ const { planet, prevPlanet, nextPlanet } = Astro.props
         alt={planet.name}
         transition:name='planeta'
         inferSize
-        class='max-h-[800px] w-auto max-w-full self-center'
+        class='max-h-[640px] w-auto max-w-full self-center'
         transition:animate={customSlideViewTransitionPrev}
       />
 
@@ -98,7 +98,7 @@ const { planet, prevPlanet, nextPlanet } = Astro.props
         alt={planet.name}
         transition:name='planeta_next'
         inferSize
-        class='max-h-[800px] w-auto max-w-full self-center'
+        class='max-h-[640px] w-auto max-w-full self-center'
         transition:animate={customSlideViewTransitionNext}
       />
     </PlanetImage>
