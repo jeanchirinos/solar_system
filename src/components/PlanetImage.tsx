@@ -32,12 +32,11 @@ export function PlanetImage(props: Props) {
 
   return (
     <>
-      {/* TODO: Avoid flex */}
-      <section className="flex grow items-center justify-center">
+      <section>
         <div
           className={
             isGoingTo === "prev"
-              ? "flex items-center justify-center"
+              ? "flex h-full items-center justify-center"
               : "size-0 opacity-0"
           }
         >
@@ -46,7 +45,7 @@ export function PlanetImage(props: Props) {
         <div
           className={
             isGoingTo === "next" || isGoingTo === "unknown"
-              ? "flex items-center justify-center"
+              ? "flex h-full items-center justify-center"
               : "size-0 opacity-0"
           }
         >
