@@ -1,9 +1,9 @@
 ---
-import { Image } from 'astro:assets'
 import Layout from '@/layouts/Layout.astro'
-import { PlanetImage } from '@/components/PlanetImage'
+import { CurrentPlanetWrapper } from '@/components/CurrentPlanetWrapper'
 import type { PlanetsInfo } from '@/types/Planet'
 import type { TransitionAnimationPair } from 'astro'
+import CurrentPlanet from '@/components/CurrentPlanet.astro'
 
 export async function getStaticPaths() {
   const response = await fetch('https://api-sistemasolar.nijui.com/api/planets')
@@ -75,34 +75,27 @@ const customSlideViewTransitionNext = {
 const { planet, prevPlanet, nextPlanet } = Astro.props
 ---
 
-<Layout title={planet.name} description={planet.description} image={planet.png ?? ''}>
+<Layout title={planet.name} description={planet.description} image={planet.png!}>
   <div
     class='mx-auto grid h-dvh max-h-[1000px] min-h-[500px] max-w-[1600px] grid-cols-1 grid-rows-[auto_minmax(0,1fr)_auto] gap-y-12 px-4 py-2'
   >
     <h1 class='text-center text-4xl font-black uppercase sm:text-6xl'>{planet.name}</h1>
 
-    <PlanetImage client:load {prevPlanet} {nextPlanet}>
-      <Image
+    <CurrentPlanetWrapper client:load {prevPlanet} {nextPlanet}>
+      <CurrentPlanet
         slot='prev'
-        loading='eager'
-        src={planet.webp!}
-        alt={planet.name}
-        transition:name='planeta'
-        inferSize
-        class='max-h-full w-auto'
+        {planet}
+        transition:name='planeta_prev'
         transition:animate={customSlideViewTransitionPrev}
       />
 
-      <Image
+      <CurrentPlanet
         slot='next'
-        loading='eager'
-        src={planet.webp!}
-        alt={planet.name}
+        {planet}
         transition:name='planeta_next'
-        inferSize
-        class='max-h-full w-auto'
         transition:animate={customSlideViewTransitionNext}
       />
-    </PlanetImage>
+    </CurrentPlanetWrapper>
   </div>
 </Layout>
+@/components/CurrentPlanetWrapper

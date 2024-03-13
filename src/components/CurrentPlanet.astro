@@ -1,0 +1,20 @@
+---
+import { Image } from 'astro:assets'
+import type { Planet } from '@/types/Planet'
+
+interface Props {
+  planet: Planet
+}
+
+const { planet } = Astro.props
+---
+
+<Image
+  slot='prev'
+  loading='eager'
+  src={planet.webp!}
+  alt={planet.name}
+  inferSize
+  class='max-h-full w-auto'
+  {...Astro.props}
+/>

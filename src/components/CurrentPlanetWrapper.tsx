@@ -8,13 +8,15 @@ type Props = {
   next?: any;
 };
 
-export function PlanetImage(props: Props) {
+export function CurrentPlanetWrapper(props: Props) {
   const { prevPlanet, nextPlanet, prev, next } = props;
 
+  // STATES
   const [isGoingTo, setIsGoingTo] = useState<
     null | "unknown" | "prev" | "next"
   >(null);
 
+  // EFFECT
   useEffect(() => {
     const localType = localStorage.getItem("type");
 
@@ -25,6 +27,7 @@ export function PlanetImage(props: Props) {
     setIsGoingTo(localType);
   }, []);
 
+  // FUNCTIONS
   function handleNavigation(type: "prev" | "next") {
     setIsGoingTo(type);
     localStorage.setItem("type", type);
