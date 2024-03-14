@@ -6,10 +6,12 @@ type Props = {
   nextPlanet: Planet | null;
   prev?: any;
   next?: any;
+  initial?: any;
+  planet: Planet;
 };
 
 export function CurrentPlanetWrapper(props: Props) {
-  const { prevPlanet, nextPlanet, prev, next } = props;
+  const { prevPlanet, nextPlanet, prev, next, initial, planet } = props;
 
   // STATES
   const [isGoingTo, setIsGoingTo] = useState<
@@ -20,21 +22,53 @@ export function CurrentPlanetWrapper(props: Props) {
   useEffect(() => {
     const localType = localStorage.getItem("type");
 
-    if (!localType || (localType !== "prev" && localType !== "next")) {
+    if (
+      !localType ||
+      (localType !== "prev" && localType !== "next" && localType !== "unknown")
+    ) {
       return setIsGoingTo("unknown");
     }
 
     setIsGoingTo(localType);
+
+    // return () => {
+    //   localStorage.removeItem("type");
+    // };
   }, []);
 
   // FUNCTIONS
-  function handleNavigation(type: "prev" | "next") {
+  function handleNavigation(type: "prev" | "next" | "unknown") {
     setIsGoingTo(type);
     localStorage.setItem("type", type);
   }
 
   return (
     <>
+      <section className="relative flex items-center justify-center">
+        <a
+          href="/"
+          onClick={() => handleNavigation("unknown")}
+          className="absolute left-0 flex items-center gap-x-1.5 rounded-full border border-neutral-800 bg-[#1B1B1B]/80 px-4 py-2 text-neutral-300 backdrop-blur-lg hover:text-white sm:left-4"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="m12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81zM12 3L2 12h3v8h6v-6h2v6h6v-8h3"
+            />
+          </svg>
+          <span className="max-sm:hidden">Inicio</span>
+        </a>
+
+        <h1 className="text-center text-4xl font-black uppercase sm:text-6xl">
+          {planet.name}
+        </h1>
+      </section>
+
       <section>
         <div
           className={
@@ -47,12 +81,21 @@ export function CurrentPlanetWrapper(props: Props) {
         </div>
         <div
           className={
-            isGoingTo === "next" || isGoingTo === "unknown"
+            isGoingTo === "next"
               ? "flex h-full items-center justify-center"
               : "size-0 opacity-0"
           }
         >
           {next}
+        </div>
+        <div
+          className={
+            isGoingTo === "unknown"
+              ? "flex h-full items-center justify-center"
+              : "size-0 opacity-0"
+          }
+        >
+          {initial}
         </div>
       </section>
 
@@ -73,9 +116,9 @@ export function CurrentPlanetWrapper(props: Props) {
               >
                 <path
                   fill="currentColor"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
 
@@ -116,9 +159,9 @@ export function CurrentPlanetWrapper(props: Props) {
               >
                 <path
                   fill="currentColor"
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10L8.22 6.28a.75.75 0 0 1 0-1.06"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </a>
