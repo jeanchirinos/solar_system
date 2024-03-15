@@ -1,4 +1,20 @@
+import { useEffect } from "react";
+
 export function ShowPlanetLink() {
+  useEffect(() => {
+    localStorage.removeItem("type");
+
+    function handleScroll() {
+      scrollTo(0, 0);
+    }
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <a

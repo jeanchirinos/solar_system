@@ -1,0 +1,1437 @@
+{
+  "info": {
+    "count": 143
+  },
+  "satellites": [
+    {
+      "id": 1,
+      "name": "Luna",
+      "planet": "Tierra",
+      "description": "La Luna es el único satélite natural de la Tierra. Se encuentra en relación síncrona con la Tierra, siempre mostrando la misma cara hacia el planeta. El hemisferio visible está marcado con oscuros mares lunares de origen volcánico entre las brillantes montañas antiguas y los destacados astroblemas.",
+      "diameter": "3474 km",
+      "mass": "7.3477 x 10^22 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/tierra/satelites/luna.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/tierra/satelites/luna.png"
+    },
+    {
+      "id": 2,
+      "name": "Fobos",
+      "planet": "Marte",
+      "description": "Fobos es un pequeño satélite, de forma irregular, cuyo radio medio es de once kilómetros. Siempre presenta la misma cara a Marte, debido al anclaje por marea ejercido por el planeta. Orbita a unos 6000 kilómetros de la superficie marciana, lo que le convierte en el satélite más próximo a su planeta del sistema solar. Estas fuerzas de marea crean una desaceleración en Fobos, perdiendo este velocidad orbital, lo que ocasionará su colisión con Marte dentro de unos 50 a 100 millones de años, o bien su desintegración y formación de un anillo alrededor del planeta.",
+      "diameter": "22,2 km",
+      "mass": "1,08 x 10^16 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/marte/satelites/fobos.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/marte/satelites/fobos.png"
+    },
+    {
+      "id": 3,
+      "name": "Deimos",
+      "planet": "Marte",
+      "description": "Deimos es el más pequeño y externo de los dos satélites de Marte. En rotación síncrona con el planeta, recorre una órbita casi circular, muy próxima al plano ecuatorial marciano, en 30,3 horas: un periodo ligeramente superior a la rotación del planeta rojo. Es de forma irregular. Tiene un diámetro medio de 12,4 km, una masa estimada de 1,4762x1015 kg y una densidad media de 1471 kg/m³. Su composición, supuesta similar a la de los asteroides de tipo D3 y los núcleos cometarios extintos.",
+      "diameter": "12,4 km",
+      "mass": "1,8 x 10^15 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/marte/satelites/deimos.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/marte/satelites/deimos.png"
+    },
+    {
+      "id": 4,
+      "name": "Metis",
+      "planet": "Júpiter",
+      "description": "Metis está en órbita anclada por las mareas de Júpiter, y su forma es muy asimétrica: su diámetro mayor es casi del doble de largo que el menor. Su órbita se encuentra dentro del anillo principal de Júpiter, y se cree que es un contribuyente importante al material de los anillos.",
+      "diameter": "43 km",
+      "mass": "3,6 x 10^16 kg (0,000005 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/metis.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/metis.png"
+    },
+    {
+      "id": 5,
+      "name": "Adrastea",
+      "planet": "Júpiter",
+      "description": "Adrastea es el segundo satélite de Júpiter en orden de distancia al planeta y es el más pequeño de los cuatro satélites interiores. Fue descubierto en las fotografías tomadas por la sonda espacial Voyager 2 en 1979, y posteriormente, en 1983, tomó oficialmente el nombre de la mítica Adrastea, hija de Meliseo y de Ananké.",
+      "diameter": "20 km",
+      "mass": "1,9 x 10^16 kg (0,0000003 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/adrastea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/adrastea.png"
+    },
+    {
+      "id": 6,
+      "name": "Amaltea",
+      "planet": "Júpiter",
+      "description": "Amaltea es el tercer satélite de Júpiter en orden de distancia, y el miembro principal del Grupo de Amaltea. Fue descubierto el 9 de septiembre de 1892 por el astrónomo estadounidense E. E. Barnard desde el observatorio Lick de la Universidad de California.",
+      "diameter": "262 km",
+      "mass": "2,1 x 10^18 kg (0,0003 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/amaltea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/amaltea.png"
+    },
+    {
+      "id": 7,
+      "name": "Tebe",
+      "planet": "Júpiter",
+      "description": "Tiene forma irregular y color rojizo. Los principales modelos geológicos indican que está formado por hielo de agua poroso con cantidades desconocidas de otras sustancias, al igual que Amaltea. Entre sus características superficiales se incluyen grandes cráteres y altas montañas.",
+      "diameter": "98,6 km",
+      "mass": "1,5 zettagramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/tebe.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/tebe.png"
+    },
+    {
+      "id": 8,
+      "name": "Ío",
+      "planet": "Júpiter",
+      "description": "Ío es el satélite galileano más cercano a Júpiter. Es el tercer satélite por su tamaño, tiene la más alta densidad entre todos los satélites y, en proporción, la menor cantidad de agua entre todos los objetos conocidos del sistema solar. Fue descubierto por Galileo Galilei en 1610.",
+      "diameter": "3 643,2 km",
+      "mass": "8.93 x 10^22 kg (0,015 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/io.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/io.png"
+    },
+    {
+      "id": 9,
+      "name": "Europa",
+      "planet": "Júpiter",
+      "description": "Europa está compuesto principalmente por silicatos, tiene una corteza de hielo de agua y un probable núcleo de hierro y níquel. Cuenta con una tenue atmósfera compuesta de oxígeno, entre otros gases. Su superficie está estriada por grietas y rayas, mientras que los cráteres son relativamente raros. Tiene la superficie más lisa de cualquier objeto conocido del sistema solar.",
+      "diameter": "3 121.6 km",
+      "mass": "4.8 x 10^22 kg (0,008 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/europa.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/europa.png"
+    },
+    {
+      "id": 10,
+      "name": "Ganímedes",
+      "planet": "Júpiter",
+      "description": "Ganímedes se compone de silicatos y hielo de agua en cantidades aproximadamente iguales. Tiene un núcleo fundido rico en hierro y un océano interno que puede poseer más agua que todos los océanos de la Tierra juntos. Su superficie está constituida por regiones oscuras y claras. Las regiones oscuras, saturadas de cráteres de impacto, cubren alrededor de un tercio del satélite. El resto de la superficie está ocupado por regiones claras, áreas cortadas por amplios surcos y crestas.",
+      "diameter": "5 262.4 km",
+      "mass": "1.4819 x 10^23 kg (0,025 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/ganimedes.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/ganimedes.png"
+    },
+    {
+      "id": 11,
+      "name": "Calisto",
+      "planet": "Júpiter",
+      "description": "Está compuesto aproximadamente por partes iguales de roca y hielo, con una densidad media de unos 1,83 g/cm³. Los componentes detectados mediante la firma espectral de la superficie incluyen hielo, dióxido de carbono, silicatos y compuestos orgánicos. La investigación de la sonda espacial Galileo reveló que Calisto tiene un núcleo, compuesto principalmente de silicatos y hierro, y un océano de agua salada bajo la superficie.",
+      "diameter": "4 821.6 km",
+      "mass": "1.0759 x 10^23 kg (0,018 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/calisto.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/calisto.png"
+    },
+    {
+      "id": 12,
+      "name": "Temisto",
+      "planet": "Júpiter",
+      "description": "Este satélite irregular parece ser un caso intermedio (y único) en distancia (más de 7.000.000 km) e inclinación (43°) entre las lunas galileanas y el Grupo de Himalia",
+      "diameter": "8 km",
+      "mass": "6,9x10^14 kg (0,0000001 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/temisto.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/temisto.png"
+    },
+    {
+      "id": 13,
+      "name": "Leda",
+      "planet": "Júpiter",
+      "description": "Leda es un pequeño satélite irregular de Júpiter, y orbita alrededor de este en una órbita prógrada en casi 239 días. Fue descubierto por Charles Thomas Kowal desde el observatorio de Monte Palomar en California el 14 de septiembre de 1974 después de tres noches de observaciones fotográficas.",
+      "diameter": "20 km",
+      "mass": "1,1x10^16 kg (0,0000003 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/leda.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/leda.png"
+    },
+    {
+      "id": 14,
+      "name": "Himalia",
+      "planet": "Júpiter",
+      "description": "Dado que su órbita es similar a la de otros satélites, se piensa que Himalia es el miembro mayor de una familia de satélites progrados e irregulares de Júpiter",
+      "diameter": "170 km",
+      "mass": "6,7x10^18 kg (0,0006 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/himalia.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/himalia.png"
+    },
+    {
+      "id": 15,
+      "name": "Lisitea",
+      "planet": "Júpiter",
+      "description": "El satélite Lisitea pertenece al grupo de Himalia, cinco lunas con órbitas programadas similares, todas con una inclinación alrededor de 27.5°.",
+      "diameter": "36 km",
+      "mass": "6,3x10^16 kg (0,0006 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/lisitea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/lisitea.png"
+    },
+    {
+      "id": 16,
+      "name": "Elara",
+      "planet": "Júpiter",
+      "description": "Elara es un satélite natural de Júpiter. Fue descubierto por Charles Dillon Perrine desde el Observatorio Lick, en California, en 1905",
+      "diameter": "86 km",
+      "mass": "8,7x10^17 kg (0,0001 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/elara.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/elara.png"
+    },
+    {
+      "id": 17,
+      "name": "Dia",
+      "planet": "Júpiter",
+      "description": "Dia, conocido previamente como S/2000 J 11, es un satélite irregular de Júpiter, descubierto por un grupo de astrónomos de la Universidad de Hawái, encabezado por Scott Sheppard en el año 2000.",
+      "diameter": "4 km",
+      "mass": "6,3x10^14 kg (0,0000001 Tierras)",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 18,
+      "name": "Carpo",
+      "planet": "Júpiter",
+      "description": "Carpo (también denominada J XLVI) es una luna de Júpiter descubierta en 2003 por un grupo de astrónomos de la Universidad de Hawái encabezados por Scott S. Sheppard, y denominada temporalmente S/2003 J 20.",
+      "diameter": "3 km",
+      "mass": "4,5x10^13 kg (0,00000001 Tierras)",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/carpo.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/carpo.png"
+    },
+    {
+      "id": 19,
+      "name": "S/2003 J 12",
+      "planet": "Júpiter",
+      "description": "Es el satélite más interior de los satélites retrógrados irregulares de Júpiter y no parece ser propia de los otros grupos.",
+      "diameter": "1 km",
+      "mass": "1,5x10^12 kg (0,00000001 Tierras)",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 20,
+      "name": "Euporia",
+      "planet": "Júpiter",
+      "description": "Es el miembro más interior del grupo de Ananké, satélites pequeños e irregulares de Júpiter con una órbita retrógrada. Se hallan situados desde unos 19,3 a unos 22,7 millones de km de Júpiter, con inclinaciones que rondan los 150°.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 21,
+      "name": "S/2003 J 3",
+      "planet": "Júpiter",
+      "description": "S/2003 J 3 es un satélite irregular retrógrado de Júpiter. Fue hallado por un grupo de astrónomos de la Universidad de Hawái liderado por Scott S. Sheppard el 4 de marzo de 2003.",
+      "diameter": "2 km",
+      "mass": "2600 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 22,
+      "name": "S/2003 J 18",
+      "planet": "Júpiter",
+      "description": "S/2003 J 18 es un satélite irregular retrógrado de Júpiter. Fue hallado por un grupo de astrónomos liderados por Brett J. Gladman el 11 de abril de 2003.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 23,
+      "name": "Ortosia",
+      "planet": "Júpiter",
+      "description": "Ortosia o Júpiter XXXV es un satélite irregular de Júpiter. Fue descubierto por un grupo de astrónomos de la Universidad de Hawái dirigido por Scott S. Sheppard en 2001.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 24,
+      "name": "Euante",
+      "planet": "Júpiter",
+      "description": "Euante o Júpiter XXXIII es un satélite irregular y retrógrado de Júpiter. Descubierto por un equipo de astrónomos de la Universidad de Hawái dirigido por Scott S. Sheppard en 2001.",
+      "diameter": "3 km",
+      "mass": "45 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 25,
+      "name": "Harpálice",
+      "planet": "Júpiter",
+      "description": "Pertenece al grupo de Ananké, asteroides que en un pasado fueron capturados por la gravedad de Júpiter y convertidas en satélites. Tiene cerca de 4 km de diámetro y una apariencia grisácea, similar a los asteroides de tipo C",
+      "diameter": "4 km",
+      "mass": "1.16x10^14 Kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 26,
+      "name": "Praxídice",
+      "planet": "Júpiter",
+      "description": "Praxídice orbita alrededor del gigante gaseoso a una distancia media de 20,824 millones de km en 613,904 días, con una inclinación de 144° respecto de la eclíptica (143° del ecuador de Júpiter), en un movimiento retrógrado y con una excentricidad de 0,1840.",
+      "diameter": "14 km",
+      "mass": "430 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 27,
+      "name": "Tione",
+      "planet": "Júpiter",
+      "description": "Tione conocido como S/2000 J 2 es uno de los satélites más pequeños de Júpiter y tiene una órbita muy baja, lo que sugiere que puede ser un asteroide capturado.",
+      "diameter": "4 km",
+      "mass": "90 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 28,
+      "name": "S/2003 J 16",
+      "planet": "Júpiter",
+      "description": "S/2003 J 16 es un satélite irregular retrógrado de Júpiter. Fue descubierto por un grupo de astrónomos dirigidos por Brett J. Gladman en 2003.",
+      "diameter": "2 km",
+      "mass": "15 teragramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 29,
+      "name": "Yocasta",
+      "planet": "Júpiter",
+      "description": "Yocasta orbita a Júpiter a una distancia media de 20,723 millones de km en 609,427 días, en una inclinación orbital de 147° respecto a la eclíptica del planeta, con una excentricidad de 0,2874.",
+      "diameter": "5,2 km",
+      "mass": "1,9x1014 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 30,
+      "name": "Mnemea",
+      "planet": "Júpiter",
+      "description": "Mnemea tiene aproximadamente 2 km de diámetro y orbita a Júpiter a una distancia media de 21,427 millones de km en 640,769 días, con una inclinación de 149° de la eclíptica (148° del ecuador de Júpiter) con una excentricidad de 0,2214.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 31,
+      "name": "Hermipe",
+      "planet": "Júpiter",
+      "description": "Hermipé tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 21,182 millones de km en 629,809 días, a una inclinación de 151° con respecto a la eclíptica (149° del ecuador de Júpiter), con una excentricidad de 0,2290.",
+      "diameter": "4 km",
+      "mass": "90 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 32,
+      "name": "Telxínoe",
+      "planet": "Júpiter",
+      "description": "Telxínoe tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 20,454 millones de km en 597.607 días, a una inclinación de 151° con respecto a la eclíptica (153° al ecuador de Júpiter), con una excentricidad de 0,2685.",
+      "diameter": "4 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 33,
+      "name": "Heliké",
+      "planet": "Júpiter",
+      "description": "Heliké",
+      "diameter": "4 km",
+      "mass": "90 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 34,
+      "name": "Ananqué",
+      "planet": "Júpiter",
+      "description": "En el espectro visible, Ananqué aparece neutral a la luz roja, sus índices de color son B-V=0,90 V-R=0,38. Mientras que su espectro infrarrojo es similar al de los asteroides de tipo-P pero con una posible indicación de agua.",
+      "diameter": "28 km",
+      "mass": "30 hexagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 35,
+      "name": "S/2003 J 15",
+      "planet": "Júpiter",
+      "description": "S/2003 J 15 tiene sobre 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,721 millones de km en 699,676 días terrestres, con una inclinación de 142° con respecto al la eclíptica (142° del ecuador de Júpiter), en un sentido retrógrado y con una excentricidad orbital de 0,0932.",
+      "diameter": "2 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 36,
+      "name": "Arce",
+      "planet": "Júpiter",
+      "description": "Arce tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,717 millones de km en 746,185 días, a una inclinación de 165º con respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+      "diameter": "3 km",
+      "mass": "45 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 37,
+      "name": "Herse",
+      "planet": "Júpiter",
+      "description": "S/2003 J 17 tiene cerca de 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,134 millones de km en 672,752 días, con una inclinación de 162° respecto de la eclíptica (161° del ecuador de Júpiter), en dirección retrógrada y excentricidad orbital de 0,2379.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 38,
+      "name": "Pasítea",
+      "planet": "Júpiter",
+      "description": "Pasítea tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,307 Millones de km en 726,933 días, a una inclinación de 166° a la eclíptica (164° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3289.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 39,
+      "name": "S/2003 J 10",
+      "planet": "Júpiter",
+      "description": "S/2003 J 10 tiene cerca de 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,307 millones de km en 726,933 días, con una inclinación de 166° respecto de la eclíptica (164° del ecuador de Júpiter), en dirección retrógrada y excentricidad orbital de 0,3289.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 40,
+      "name": "Caldona",
+      "planet": "Júpiter",
+      "description": "Caldona tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,713 millones de km. en 699,327 días, a una inclinación de 164° con respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+      "diameter": "4 km",
+      "mass": "75 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 41,
+      "name": "Isonoé",
+      "planet": "Júpiter",
+      "description": "Isonoé tiene unos 3,8 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,833 Millones de km en 751.647 días, a una inclinación de 166 º a la eclíptica (169 ° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0.166.",
+      "diameter": "3,8 km",
+      "mass": "7,5x10^13 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 42,
+      "name": "Erinome",
+      "planet": "Júpiter",
+      "description": "Erínome tiene unos 3,2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,986 Millones de km en 711.965 días, a una inclinación de 164° respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+      "diameter": "3,2 km",
+      "mass": "45 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 43,
+      "name": "Calé",
+      "planet": "Júpiter",
+      "description": "Calé tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,409 Millones de km en 685.324 días, a una inclinación de 165° a la eclíptica (166° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,2011.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 44,
+      "name": "Aitné",
+      "planet": "Júpiter",
+      "description": "Aitné tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,285 Millones de km en 679.641 días, a una inclinación de 166° a la eclíptica (164° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,393.",
+      "diameter": "3 km",
+      "mass": "45 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 45,
+      "name": "Táigete",
+      "planet": "Júpiter",
+      "description": "Táigete tiene unos 5 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,439 Millones de km en 686,675 días, a una inclinación de 165° a la eclíptica (163° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3678.",
+      "diameter": "5 km",
+      "mass": "160 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 46,
+      "name": "S/2003 J 9",
+      "planet": "Júpiter",
+      "description": "S/2003 J 9 tiene alrededor de 1 kilómetro de diámetro, y órbita a Júpiter a una distancia media de 23,858 millones de km en 752.839 días, a una inclinación de 165° a la eclíptica (165° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,276.",
+      "diameter": "1 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 47,
+      "name": "S/2003 J 5",
+      "planet": "Júpiter",
+      "description": "S/2003 J 5 tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,974 Millones de km en 758.341 días, a una inclinación de 166° a la eclíptica (167° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,307.",
+      "diameter": "4 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 48,
+      "name": "S/2003 J 19",
+      "planet": "Júpiter",
+      "description": "S/2003 J 19 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,709 Millones de km en 699.125 días, a una inclinación de 166° a la eclíptica (167° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,1961.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 49,
+      "name": "Eukélade",
+      "planet": "Júpiter",
+      "description": "Eukélade tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,484 millones de km. en 735,200 días, a una inclinación de 164° con respecto a la eclíptica (165° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,2829.",
+      "diameter": "4 km",
+      "mass": "90 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 50,
+      "name": "Carme",
+      "planet": "Júpiter",
+      "description": "Con sus 40 kilómetros medios de radio, tarda 692 días terrestres en dar una vuelta al planeta gaseoso, del cual dista a unos 22,6 millones de kilómetros aproximadamente. La composición en su superficie es mayoritariamente de tierra rica en carbono y hielo.",
+      "diameter": "48 km",
+      "mass": "1.3x10^17 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/carme.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/carme.png"
+    },
+    {
+      "id": 51,
+      "name": "Espondé",
+      "planet": "Júpiter",
+      "description": "Espondé tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 24,253 millones de km. en 771.604 días, a una inclinación de 154° con respecto a la eclíptica (156° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,443.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 52,
+      "name": "Eurídome",
+      "planet": "Júpiter",
+      "description": "Eurídome tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,231 Millones de km en 723.359 días, a una inclinación de 149 º a la eclíptica (147 ° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0.3770.",
+      "diameter": "3 km",
+      "mass": "4,5x1013 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 53,
+      "name": "Megaclite",
+      "planet": "Júpiter",
+      "description": "Megaclite tiene cerca de 5,4 kilómetros de diámetro, y se mueve en órbita alrededor de Júpiter en un promedio de 23.806.000 kilómetros. Tiene una inclinación de 150° con respecto a la elíptica (148° del ecuador de Júpiter), con una excentricidad de 0,308.",
+      "diameter": "5,4 km",
+      "mass": "2,1x10^14 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/megaclite.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/megaclite.png"
+    },
+    {
+      "id": 54,
+      "name": "S/2003 J 23",
+      "planet": "Júpiter",
+      "description": "S/2003 J 23 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 22,740 millones de km en 700.538 días, a una inclinación de 149° a la eclíptica (149° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3931.",
+      "diameter": "2 km",
+      "mass": "2600 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 55,
+      "name": "Cálice",
+      "planet": "Júpiter",
+      "description": "Cálice tiene unos 5,2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,181 millones de km en 721,021 días, con una inclinación de 166 ° a la eclíptica (165 ° al ecuador de Júpiter), con una dirección retrógrada y excentricidad de 0,2140.",
+      "diameter": "5,2 km",
+      "mass": "190 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 56,
+      "name": "Pasífae",
+      "planet": "Júpiter",
+      "description": "Fue descubierto en una placa tomada en el Real Observatorio de Greenwich en la noche del 28 de febrero de 1908, pero se encuentra ya en una inspección de placas de la entidad del 27 de enero.",
+      "diameter": "58 km",
+      "mass": "300 hexagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 57,
+      "name": "S/2003 J 4",
+      "planet": "Júpiter",
+      "description": "S/2003 J 4 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,571 millones de km en 739.294 días, a una inclinación de 147° a la eclíptica (149° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,3931.",
+      "diameter": "2 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 58,
+      "name": "Sinope",
+      "planet": "Júpiter",
+      "description": "Sinope era el satélite más ultraperiférico conocido de Júpiter, hasta el descubrimiento de Megaclite en 2000.",
+      "diameter": "19 km",
+      "mass": "7,5x10^16kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 59,
+      "name": "Hegémone",
+      "planet": "Júpiter",
+      "description": "Hegémone tiene unos 3 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,703 Millones de km en 745.500 días, a una inclinación de 153° a la eclíptica (151° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,4077.",
+      "diameter": "3 km",
+      "mass": "45 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 60,
+      "name": "Cilene",
+      "planet": "Júpiter",
+      "description": "Cilene tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,396 millones de km. en 731,099 días, a una inclinación de 140° con respecto a la eclíptica (140° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,4116.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 61,
+      "name": "Aedea",
+      "planet": "Júpiter",
+      "description": "Aedea tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,044 millones de km en 714,657 días, a una inclinación de 160º con respecto a la eclíptica (162° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0.4311.",
+      "diameter": "4 km",
+      "mass": "8,7x10^13 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/aedea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/satelites/aedea.png"
+    },
+    {
+      "id": 62,
+      "name": "Kore",
+      "planet": "Júpiter",
+      "description": "Kore tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,239 millones de km en 723.720 días, con una inclinación de 141° a la eclíptica (139° al ecuador de Júpiter), en dirección retrógrada y con una excentricidad de 0,2462.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 63,
+      "name": "Kallichore",
+      "planet": "Júpiter",
+      "description": "Kallichore tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 23,112 Millones de km en 717.806 días, a una inclinación de 165° a la eclíptica (164° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,2042.",
+      "diameter": "2 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 64,
+      "name": "Autónoe",
+      "planet": "Júpiter",
+      "description": "Autónoe tiene unos 4 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 24,264 millones de km en 772,168 días, a una inclinación de 150° con respecto a la eclíptica (151° al ecuador de Júpiter), en una dirección retrógrada y con una excentricidad de 0,369.",
+      "diameter": "4 km",
+      "mass": "90 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 65,
+      "name": "Calírroe",
+      "planet": "Júpiter",
+      "description": "Calírroe tiene alrededor de 8,6 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 24,3560 millones de kilómetros, tomándole una rotación 776,5430 días, con una inclinación de 141 ° a la eclíptica (140 ° del ecuador de Júpiter), En una dirección retrógrada y con una excentricidad de 0.264.",
+      "diameter": "5 km",
+      "mass": "8,7^1014 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 66,
+      "name": "S/2003 J 2",
+      "planet": "Júpiter",
+      "description": "S/2003 J 2 tiene unos 2 kilómetros de diámetro, y orbita a Júpiter a una distancia media de 29,54 millones de kilómetros en 980 días, a una inclinación de 154° a la eclíptica (152 ° al ecuador de Júpiter) y con una excentricidad de 0,2255.",
+      "diameter": "2 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 67,
+      "name": "S/2010 J 1",
+      "planet": "Júpiter",
+      "description": "S/2010 J 1 orbita a Júpiter a una distancia media de 14 570 000 millas (23.45 millones de km), tardando 2,02 años para completar una vuelta alrededor de Júpiter. S/2010 J 1 tiene un diámetro de aproximadamente 1,8 millas (3 kilómetros) de ancho.",
+      "diameter": "2 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 68,
+      "name": "S/2010 J 2",
+      "planet": "Júpiter",
+      "description": "S/2010 J 2 tarda 1,69 años en orbitar alrededor de Júpiter, y su distancia media es de 13 060 000 millas (21,01 millones de kilómetros). S/2010 J 2 tiene un diámetro de aproximadamente 1 kilómetro, siendo etiquetado como el satélite natural más pequeño conocido en el sistema solar que se descubrió desde la Tierra.",
+      "diameter": "1 km",
+      "mass": "69 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 69,
+      "name": "S/2011 J 1",
+      "planet": "Júpiter",
+      "description": "S/2011 J 1 es un satélite irregular retrógrado de Júpiter. Fue hallado por Scott S. Sheppard el 27 de septiembre de 2011.",
+      "diameter": "1 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 70,
+      "name": "S/2011 J 2",
+      "planet": "Júpiter",
+      "description": "S/2011 J 2 es un satélite irregular retrógrado de Júpiter. Fue hallado por Scott S. Sheppard el 27 de septiembre de 2011.",
+      "diameter": "0,5 km",
+      "mass": "15 petagramos",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 71,
+      "name": "S/2016 J 1",
+      "planet": "Júpiter",
+      "description": "S/2016 J1, es un satélite natural externo de Júpiter. Fue descubierto por Scott S. Sheppard en 2016, pero no fue anunciado hasta el 2 de junio de 2017 a través del Centro de Planetas Menores. Tiene aproximadamente 1 kilómetro de diámetro.",
+      "diameter": "1 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 72,
+      "name": "S/2017 J 1",
+      "planet": "Júpiter",
+      "description": "S/2017 J 1 es un satélite natural externo de Júpiter. Se informó el 5 de junio de 2017 a través del Centro de Planetas Menores. Se cree que tiene unos 2 km de diámetro.",
+      "diameter": "2 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 73,
+      "name": "Titán",
+      "planet": "Saturno",
+      "description": "Titán es el mayor de los satélites de Saturno y el segundo del sistema solar tras Ganimedes. Además, es el único satélite conocido que posee una atmósfera importante, y el único objeto, aparte de la Tierra, en el que se ha encontrado evidencia clara de cuerpos líquidos estables en la superficie.",
+      "diameter": "5 150 km",
+      "mass": "1,345x10^23 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/titan.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/titan.png"
+    },
+    {
+      "id": 74,
+      "name": "Rea",
+      "planet": "Saturno",
+      "description": "Rea es un satélite del planeta Saturno. Con 1529 km de diámetro, es el segundo satélite más grande del planeta después de Titán, y seguido de cerca por Jápeto. El satélite ocupa la decimocuarta posición en cercanía al planeta, orbitando a una distancia de unos 527.000 km. Su órbita es casi circular y está ligeramente inclinada con respecto al ecuador de Saturno, y el satélite tarda unos 4,5 días terrestres en completarla.",
+      "diameter": "1 528 km",
+      "mass": "2,32x10^21 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/rea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/rea.png"
+    },
+    {
+      "id": 75,
+      "name": "Jápeto",
+      "planet": "Saturno",
+      "description": "Es el octavo más distante al planeta y el tercero en tamaño, con un diámetro de alrededor de 1500 km, después de los satélites más grandes Titán y Rea. Fue descubierto por Giovanni Cassini en 1671. Tarda en completar una vuelta alrededor de Saturno 79,33 días terrestres, a una distancia media de 3 561 300 km.",
+      "diameter": "1 436 km",
+      "mass": "1,973x10^21 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/japeto.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/japeto.png"
+    },
+    {
+      "id": 76,
+      "name": "Dione",
+      "planet": "Saturno",
+      "description": "Dione está compuesto principalmente de agua congelada. Sin embargo, dado que Dione es la luna más densa de Saturno (aparte de Titán, cuya densidad es mayor por compresión gravitacional), seguramente debe tener materiales más densos en su interior, como por ejemplo rocas de silicio.",
+      "diameter": "1,123 km",
+      "mass": "1,096x10^21 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/dione.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/dione.png"
+    },
+    {
+      "id": 77,
+      "name": "Tetis",
+      "planet": "Saturno",
+      "description": "Tiene la densidad más baja entre los mayores satélites del sistema solar, lo que indica que está compuesto por hielo de agua con una muy pequeña fracción de roca. La confirmación vino de los resultados espectroscópicos que identificaron al hielo de agua como la sustancia dominante de la superficie.",
+      "diameter": "1,062 km",
+      "mass": "6,174x10^20 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/tetis.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/tetis.png"
+    },
+    {
+      "id": 78,
+      "name": "Encélado",
+      "planet": "Saturno",
+      "description": "Encélado es el sexto satélite más grande de Saturno con algo más de 500 km de diámetro, aproximadamente la décima parte del de Titán, el mayor satélite saturniano. Está cubierto por una capa de hielo que refleja casi toda la luz solar que incide sobre él, por lo que la temperatura superficial es muy baja: -198 °C a mediodía.",
+      "diameter": "504 km",
+      "mass": "1,08x10^20 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/encelado.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/encelado.png"
+    },
+    {
+      "id": 79,
+      "name": "Mimas",
+      "planet": "Saturno",
+      "description": "Mimas es un satélite de Saturno descubierto en 1789 por William Herschel y denominado en aquel momento como Saturno I por ser el satélite más interno de los descubiertos por Herschel (gira alrededor de Saturno en ~ 22,5 horas).",
+      "diameter": "396,2 km",
+      "mass": "3,749x10^19 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/mimas.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/mimas.png"
+    },
+    {
+      "id": 80,
+      "name": "Hipérion",
+      "planet": "Saturno",
+      "description": "Hiperión es un satélite de Saturno, el séptimo satélite clásico en orden de distancia desde el planeta. Se distingue por su forma irregular, su rotación caótica, y su apariencia inexplicable parecida a una esponja.",
+      "diameter": "360x280x225 km",
+      "mass": "5,686x10^18 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/hiperion.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/hiperion.png"
+    },
+    {
+      "id": 81,
+      "name": "Febe",
+      "planet": "Saturno",
+      "description": "Febe es el satélite irregular más grande de Saturno. Fue descubierto por el astrónomo estadounidense William Henry Pickering en 1898. Tiene un diámetro de 220 km. Su distancia a Saturno es de 12 954 000 km y su masa es de 4,0e+18 kg. Posee una inclinación de su órbita de 175,3º. Refleja solo el 6 % de la luz solar que recibe. Tarda nueve horas en completar una rotación sobre su eje.",
+      "diameter": "220 km",
+      "mass": "4,0x10^18 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/febe.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/febe.png"
+    },
+    {
+      "id": 82,
+      "name": "Pandora",
+      "planet": "Saturno",
+      "description": "Pandora es un satélite de Saturno descubierto en 1980 por la sonda Voyager 1. Físicamente es un cuerpo muy parecido al cercano Prometeo.",
+      "diameter": "83 km",
+      "mass": "1,94x10^17 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/pandora.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/pandora.png"
+    },
+    {
+      "id": 83,
+      "name": "Epimeteo",
+      "planet": "Saturno",
+      "description": "Epimeteo ocupa la misma órbita que la luna Jano. Los satélites de Saturno Epimeteo y Jano que distan en sus órbitas menos que la suma de sus diámetros son satélites coorbitales esto es satélites que giran en la misma órbita.",
+      "diameter": "116,2 km",
+      "mass": "525.607x10^15",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/epimeteo.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/epimeteo.png"
+    },
+    {
+      "id": 84,
+      "name": "Jano",
+      "planet": "Saturno",
+      "description": "Jano ocupa la misma órbita que la luna Epimeteo. Los astrónomos asumieron que había sólo un cuerpo en esa órbita, y como es evidente, era imposible reconciliar las observaciones de dos objetos distintos interpretándolos como si fuesen uno solo.",
+      "diameter": "178 km",
+      "mass": "1,9x10^17 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/jano.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/jano.png"
+    },
+    {
+      "id": 85,
+      "name": "Helena",
+      "planet": "Saturno",
+      "description": "Helena, descubierto en 1980 por los astrónomos franceses Pierre Laques del Observatorio Pic du Midi y Jean Lecacheux del Observatorio de París. Se pudo observar por primera vez cuando los anillos de Saturno se veían desde la Tierra de perfil. Esta orientación de los anillos reduce mucho la luz que producen cuando contemplamos el planeta desde un telescopio y, por tanto, permiten la detección de débiles cuerpos en las proximidades de estos.",
+      "diameter": "43.4x38.2x26 km",
+      "mass": "11 hexagramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/helena.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/helena.png"
+    },
+    {
+      "id": 86,
+      "name": "Telesto",
+      "planet": "Saturno",
+      "description": "Telesto es un satélite de Saturno. Descubierto por Smith, Reitsema, Larson y Fountain de la Universidad de Arizona en 1980 en observaciones desde la Tierra, fue llamado provisionalmente S/1980 S 13.",
+      "diameter": "24,8 km",
+      "mass": "4 exagramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/telesto.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/telesto.png"
+    },
+    {
+      "id": 87,
+      "name": "Calipso",
+      "planet": "Saturno",
+      "description": "Calipso es un satélite de Saturno de forma irregular y dimensiones de 30x16x16 km.",
+      "diameter": "30x16x16 km",
+      "mass": "2,5 exagramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/calipso.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/calipso.png"
+    },
+    {
+      "id": 88,
+      "name": "Atlas",
+      "planet": "Saturno",
+      "description": "Atlas parece ser un satélite pastor del anillo A. Además, en 2004 se descubrió un anillo débil y delgado, temporalmente llamado Anillo R/2004 S 1, en la órbita de Atlas. También tiene una rotacion sincrona con respecto a saturno.",
+      "diameter": "31 km",
+      "mass": "6,6x10^16 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/atlas.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/atlas.png"
+    },
+    {
+      "id": 89,
+      "name": "Prometeo",
+      "planet": "Saturno",
+      "description": "Esta luna presenta una forma muy alargada. Posee numerosas crestas y valles y algunos cráteres de unos 20 km de diámetro son visibles. La baja densidad y el elevado albedo hacen probable que Prometeo sea un cuerpo helado poroso.",
+      "diameter": "148x100x68 km",
+      "mass": "3,3x10^17 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/prometeo.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/prometeo.png"
+    },
+    {
+      "id": 90,
+      "name": "Pan",
+      "planet": "Saturno",
+      "description": "Es uno de los más internos satélites conocidos de este planeta, y se encuentra en la división Encke del anillo A de Saturno, de la que actúa como luna pastora, siendo responsable de mantenerla abierta. Fue descubierto por Mark R. Showalter en 1990 que provoca la separación de los anillos de Saturno mientras examinaba las viejas fotografías obtenidas nueve años antes por el Voyager en su encuentro con Saturno.",
+      "diameter": "14.1 km",
+      "mass": "2,7x10^15 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/pan.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/pan.png"
+    },
+    {
+      "id": 91,
+      "name": "Dafne",
+      "planet": "Saturno",
+      "description": "Dafne es un satélite de Saturno. Su descubrimiento lo anunció Carolyn Porco el 6 de mayo de 2005. Apareció en seis imágenes tomadas por la nave Cassini el 1 de mayo con una exposición de 16 minutos del borde exterior del anillo A. En las imágenes de alta resolución (3,54 km/pixel) se observa su disco de 7 km.",
+      "diameter": "8 km",
+      "mass": "0.068x10^15 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/dafne.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/dafne.png"
+    },
+    {
+      "id": 92,
+      "name": "Antea",
+      "planet": "Saturno",
+      "description": "Antea está visiblemente afectada por una resonancia de longitud media mucho mayor que Mimas. Esto provoca que su órbita varíe en el semieje mayor unos 20 km respecto a la que seguiría sin perturbaciones en un plazo de 2 años. La estrecha proximidad a las órbitas de Palene y Metone y el hecho de que tengan elementos orbitales similares sugiere que estas lunas puedan formar una familia dinámica.",
+      "diameter": "1 km",
+      "mass": "5x10^12 km",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/antea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/satelites/antea.png"
+    },
+    {
+      "id": 93,
+      "name": "Palene",
+      "planet": "Saturno",
+      "description": "Palene, es un satélite natural de Saturno muy pequeño situado entre las órbitas de Mimas y Encélado. Fue visto por primera vez por la misión de la NASA Cassini-Huygens en agosto de 2004 y se le dio la designación provisional de S/2004 S 2.",
+      "diameter": "4 km",
+      "mass": "1,7-7x10^13",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 94,
+      "name": "Cordelia",
+      "planet": "Urano",
+      "description": "Fue descubierto por Richard J. Terrile a partir de las imágenes tomadas por la Voyager 2 el 21 de enero de 1986, y recibió la designación temporal S/1986 U 7, también se designa Urano VI. No se volvió a detectar hasta que el telescopio espacial Hubble lo observó nuevamente en 1997.",
+      "diameter": "40,2 km",
+      "mass": "4,4x10^16 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 95,
+      "name": "Ofelia",
+      "planet": "Urano",
+      "description": "Fue descubierto por Richard J. Terrile a partir de las imágenes tomadas por la sonda espacial Voyager 2 el 21 de enero de 1986, y recibió la designación temporal S/1986 U 8. También se designa Urano VII. El satélite no fue detectado nuevamente hasta que el telescopio espacial Hubble lo observó nuevamente en 2003.",
+      "diameter": "21,4 km",
+      "mass": "5,3x10^16 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 96,
+      "name": "Bianca",
+      "planet": "Urano",
+      "description": "Bianca es un satélite natural de Urano. Fue descubierto a partir de imágenes tomadas por la sonda espacial Voyager 2 el 23 de enero de 1986, y le fue dada la designación temporal S/1986 U 9, aunque también se designa Urano VIII.",
+      "diameter": "44,4 km",
+      "mass": "9,2x10^16 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 97,
+      "name": "Crésida",
+      "planet": "Urano",
+      "description": "Crésida (en inglés: Cressida) es un satélite interior de Urano. Fue descubierto a partir de imágenes tomadas por la sonda espacial Voyager 2 el 9 de enero de 1986, y recibió la designación temporal S/1986 U 3.",
+      "diameter": "79.6 km",
+      "mass": "3x4^20 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 98,
+      "name": "Desdémona",
+      "planet": "Urano",
+      "description": "Desdémona es un satélite natural de Urano. Fue descubierto el 13 de enero de 1986 por la sonda espacial Voyager 2 y su designación provisional fue S/1986 U 6",
+      "diameter": "64 km",
+      "mass": "1x8^18 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 99,
+      "name": "Julieta",
+      "planet": "Urano",
+      "description": "Julieta es un satélite natural de Urano. Fue descubierto el 3 de enero de 1986 por la sonda espacial Voyager 2 y su designación provisional fue S/1986 U 2.",
+      "diameter": "94 km",
+      "mass": "5x6^18 km",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 100,
+      "name": "Porcia",
+      "planet": "Urano",
+      "description": "Porcia es un satélite natural de Urano. Fue descubierto el 3 de enero de 1986 a través de las imágenes enviadas por la sonda espacial Voyager 2 y su designación provisional fue S/1986 U 1.",
+      "diameter": "135 km",
+      "mass": "1x7^18 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 101,
+      "name": "Rosalinda",
+      "planet": "Urano",
+      "description": "Rosalinda es un satélite natural de Urano. Fue descubierto el 13 de enero de 1986 por la sonda Voyager 2 y su designación provisional fue S/1986 U 4.",
+      "diameter": "72 km",
+      "mass": "2x5^18 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 102,
+      "name": "Cupido",
+      "planet": "Urano",
+      "description": "Es el más pequeño de los satélites interiores de Urano con sólo 18 km de diámetro. Esta superficie y su color oscuro hizo que fuera demasiado débil para ser detectado por la sonda Voyager 2 durante su paso por Urano en 1986.",
+      "diameter": "17,8 km",
+      "mass": "3,8x10^15 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 103,
+      "name": "Belinda",
+      "planet": "Urano",
+      "description": "Belinda es un satélite natural de Urano. Fue descubierto el 13 de enero de 1986 por la sonda Voyager 2 y su designación provisional fue S/1986 U 5.",
+      "diameter": "81 km",
+      "mass": "3x6^18 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 104,
+      "name": "Perdita",
+      "planet": "Urano",
+      "description": "Perdita orbita entre Belinda y Puck. Las observaciones del Hubble demuestran que no sigue directamente las Leyes de Kepler en su movimiento alrededor de Urano. En cambio, está claramente atrapado en una resonancia orbital de 43:44 con la cercana Belinda.",
+      "diameter": "20 km",
+      "mass": "",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 105,
+      "name": "Puck",
+      "planet": "Urano",
+      "description": "Puck estaba próximo a Miranda cuando fue descubierto, por lo que se pudo programar la sonda para que parte del tiempo de observación a este satélite se dedicara a aquel, siendo el único objeto descubierto por la Voyager 2 que se conoce con detalle.",
+      "diameter": "160 km",
+      "mass": "2,8939x10^18 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 106,
+      "name": "Mab",
+      "planet": "Urano",
+      "description": "Mab está fuertemente perturbado. El origen de esta perturbación todavía es confuso, pero se cree que es debido a alguno de los satélites que orbitan cerca de él. La órbita de Mab se encuentra a la misma distancia de Urano que R/2003 U 1, un anillo descubierto recientemente.",
+      "diameter": "24,8 km",
+      "mass": "1x10^16 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 107,
+      "name": "Miranda",
+      "planet": "Urano",
+      "description": "Miranda, también designado como Urano V, es el menor de los cinco satélites principales del planeta Urano y el último en ser descubierto hasta el sobrevuelo de Urano por la sonda espacial Voyager 2. Descubierto por Gerard Kuiper el 16 de febrero de 1948.",
+      "diameter": "472 km",
+      "mass": "6,59x10^19 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 108,
+      "name": "Ariel",
+      "planet": "Urano",
+      "description": "Ariel es el cuarto satélite más grande de Urano y el segundo en proximidad de los satélites principales. Se conoce el 35 % de la superficie del satélite por el sobrevuelo de la sonda Voyager 2 en 1986, el único acercamiento al sistema uraniano hasta la fecha. Es el decimocuarto satélite en tamaño del sistema solar.",
+      "diameter": "1157,8 km",
+      "mass": "1,35x10^21 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 109,
+      "name": "Umbriel",
+      "planet": "Urano",
+      "description": "Está constituido principalmente por hielo con una parte sustancial de roca y su interior puede estar diferenciado en un núcleo rocoso y un manto de hielo. La superficie es la más oscura de los satélites principales de Urano y parece haber sido esculpida básicamente por impactos. Sin embargo, la presencia de cañones sugiere que ha sufrido tempranos procesos endógenos que provocaron el rejuvenecimiento superficial y borraron los terrenos más antiguos.",
+      "diameter": "1172 km",
+      "mass": "11,72x10^20 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 110,
+      "name": "Titania",
+      "planet": "Urano",
+      "description": "Titania está compuesto de partes aproximadamente iguales de hielo y roca que están probablemente diferenciados en un núcleo rocoso y un manto de hielo. Una capa de agua líquida puede que esté presente en el límite entre el núcleo y el manto. La superficie de Titania, que es oscura y de color ligeramente rojizo, parece que ha sido modelada tanto por impactos como por procesos endógenos.",
+      "diameter": "1,578 km",
+      "mass": "3,49x10^21 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 111,
+      "name": "Oberon",
+      "planet": "Urano",
+      "description": "Oberón está compuesto de partes aproximadamente iguales de hielo y roca que están probablemente diferenciados en un núcleo rocoso y un manto de hielo. Una capa de agua líquida puede que esté presente en el límite entre el núcleo y el manto. La superficie de Oberón, que es oscura y de color ligeramente rojizo.",
+      "diameter": "1576,8 km",
+      "mass": "3,527x10^21 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 112,
+      "name": "Francisco",
+      "planet": "Urano",
+      "description": "Francisco, también denominado Urano XXII, es el más interior de los satélites irregulares de Urano.",
+      "diameter": "22 km",
+      "mass": "1,4x10^15 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 113,
+      "name": "Calibán",
+      "planet": "Urano",
+      "description": "Calibán es el segundo mayor satélite retrógrado irregular de Urano. Fue descubierto el 6 de septiembre de 1997 por Brett J. Gladman, Philip D. Nicholson, Joseph A. Burns, y John J. Kavelaars utilizando el telescopio Hale junto a Sicorax y su designación provisional fue S/1997 U 1.",
+      "diameter": "72 km",
+      "mass": "2x5^17 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 114,
+      "name": "Stephano",
+      "planet": "Urano",
+      "description": "Stefano es uno de los satélites retrógrados irregulares de Urano. Fue descubierto el 18 de julio de 1999 por Brett J. Gladman y su equipo, y su designación provisional fue S/1999 U 2.",
+      "diameter": "32 km",
+      "mass": "2x2^16 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 115,
+      "name": "Trínculo",
+      "planet": "Urano",
+      "description": "Trínculo es un satélite irregular retrógrado del planeta Urano. Fue descubierto el 13 de agosto de 2001 por Holman, et al, y recibió la designación provisional de S/2001 U 1",
+      "diameter": "18 km",
+      "mass": "1x10^15 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 116,
+      "name": "Sycorax",
+      "planet": "Urano",
+      "description": "Sicorax es el satélite natural irregular y retrógrado mayor de Urano. Fue descubierto el 6 de septiembre de 1997 por Brett J. Gladman, Philip D. Nicholson, Joseph A. Burns, y John J. Kavelaars conjuntamente con Caliban y se le asignó temporalmente la designación S/1997 U 2.",
+      "diameter": "150 km",
+      "mass": "2x3^18 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 117,
+      "name": "Margarita",
+      "planet": "Urano",
+      "description": "Margarita es el único satélite irregular no retrógrado de Urano. Fue descubierto el 29 de agosto de 2003 por Scott S. Sheppard y David C. Jewitt, y su designación provisional fue S/2003 U 3.",
+      "diameter": "20 km",
+      "mass": "5,4x10^15 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 118,
+      "name": "Próspero",
+      "planet": "Urano",
+      "description": "Próspero es uno de los satélites retrógrados irregulares de Urano. Fue descubierto el 18 de julio de 1999 por Matthew J. Holman con su equipo, y su designación provisional fue S/1999 U 3.",
+      "diameter": "50 km",
+      "mass": "8x5^16 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 119,
+      "name": "Setebos",
+      "planet": "Urano",
+      "description": "Setebos es uno de los satélites retrógrados irregulares de Urano. Fue descubierto el 18 de julio de 1999 por John J. Kavelaars con su equipo, y su designación provisional fue S/1999 U 1.",
+      "diameter": "48 km",
+      "mass": "7x5^16 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 120,
+      "name": "Ferdinand",
+      "planet": "Urano",
+      "description": "Ferdinando es el satélite más lejano de Urano, muestra una órbita retrógrada moderadamente inclinada y de alta excentricidad.",
+      "diameter": "21 km",
+      "mass": "5x4^18 kg",
+      "webp": null,
+      "png": null
+    },
+    {
+      "id": 121,
+      "name": "Tritón",
+      "planet": "Neptuno",
+      "description": "Tritón se compone de una corteza de nitrógeno congelado sobre un manto de hielo, el cual se cree cubre un núcleo sólido de roca y metal. Tritón tiene una densidad media de 2.061 g/cm³ y está compuesto por aproximadamente un 15-35 % de agua helada.",
+      "diameter": "2707 km",
+      "mass": "2.14x10^22 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/triton.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/triton.png"
+    },
+    {
+      "id": 122,
+      "name": "Proteo",
+      "planet": "Neptuno",
+      "description": "Es uno de los cuerpos más oscuros del sistema solar ya que solo refleja el 6 % de la luz solar que recibe, por lo que no ha podido ser descubierto antes del paso de la Voyager 2. Lleva el nombre de Proteus, el dios marino cambiante de la mitología griega.",
+      "diameter": "420 km",
+      "mass": "0.5x10^20 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/proteo.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/proteo.png"
+    },
+    {
+      "id": 123,
+      "name": "Nereida",
+      "planet": "Neptuno",
+      "description": "Nereida es similar en tamaño a Mimas, satélite de Saturno, aunque Nereida es más denso. Desde 1987, algunas observaciones fotométricas de Nereida han detectado grandes variaciones (de ~1 de magnitud) de su brillo, que pueden ocurrir a lo largo de años y meses, y en ocasiones hasta en unos pocos días.",
+      "diameter": "340 km",
+      "mass": "3.1x10^19 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/nereida.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/nereida.png"
+    },
+    {
+      "id": 124,
+      "name": "Larisa",
+      "planet": "Neptuno",
+      "description": "Larisa presenta un aspecto notablemente irregular y no muestra signos de actividad geológica; su superficie muestra una gran densidad de cráteres.",
+      "diameter": "194 km",
+      "mass": "0.05x10^20 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/larisa.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/larisa.png"
+    },
+    {
+      "id": 125,
+      "name": "Galatea",
+      "planet": "Neptuno",
+      "description": "Galatea tiene una forma irregular y no muestra signos de modificación geológica alguna. Es probable que se trate de un conjunto de escombros reacumulados a partir de fragmentos de los satélites originales de Neptuno.",
+      "diameter": "174.8 km",
+      "mass": "3.7x10^18 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/galatea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/galatea.png"
+    },
+    {
+      "id": 126,
+      "name": "Náyade",
+      "planet": "Neptuno",
+      "description": "Náyade tiene una forma irregular. Es probable que se trate de un conjunto de escombros reacumulados a partir de fragmentos de los satélites originales de Neptuno.",
+      "diameter": "58 km",
+      "mass": "190x10^15 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/nayade.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/nayade.png"
+    },
+    {
+      "id": 127,
+      "name": "Talasa",
+      "planet": "Neptuno",
+      "description": "Talasa tiene una forma irregular. Es probable que se trate de un conjunto de escombros reacumulados a partir de fragmentos de los satélites originales de Neptuno.",
+      "diameter": "82 km",
+      "mass": "370x10^15 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/talasa.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/talasa.png"
+    },
+    {
+      "id": 128,
+      "name": "Despina",
+      "planet": "Neptuno",
+      "description": "Despina posee una forma irregular y no muestra signos de actividad geológica. Se cree que se originó a raíz de fragmentos de los satélites primitivos de Neptuno.",
+      "diameter": "150 km",
+      "mass": "0.021x10^20",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/despina.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/despina.png"
+    },
+    {
+      "id": 129,
+      "name": "Halimede",
+      "planet": "Neptuno",
+      "description": "Halimede aparece gris ante el espectro visible. Dado el similar color de Halimede al de Nereida, junto con una alta probabilidad de colisión (41 %), se ha sugerido que Halimede podría ser un fragmento de Nereida.",
+      "diameter": "62 km",
+      "mass": "180 exagramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/halimede.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/halimede.png"
+    },
+    {
+      "id": 130,
+      "name": "Sao",
+      "planet": "Neptuno",
+      "description": "Sao orbita a Neptuno a una distancia cercana a los 22.2 millones de kilómetros. Además de tener una excepcional inclinación de 53.483° y una moderada excentricidad de 0.1365 en relación con otros satélites irregulares de Neptuno.",
+      "diameter": "44 km",
+      "mass": "67 exagramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/sao.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/sao.png"
+    },
+    {
+      "id": 131,
+      "name": "Laomedeia",
+      "planet": "Neptuno",
+      "description": "Laomedeia orbita a Neptuno a una distancia aproximada de 23.5 millones de kilómetros. Laomedeia tiene una inclinación de 37.874° respecto a la eclíptica y una excentricidad de 0.3969. Fue nombrado en honor a Laomedeia, una de las 50 ninfas Nereidas.",
+      "diameter": "42 km",
+      "mass": "58 exagramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/laomedeia.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/laomedeia.png"
+    },
+    {
+      "id": 132,
+      "name": "Psámate",
+      "planet": "Neptuno",
+      "description": "Psámate tiene unos 38 kilómetros de diámetro y orbita alrededor de Neptuno a una distancia media de entre 25.7 y 67.7 millones de kilómetros y requiere casi 25 años terrestres en completar su órbita. La órbita de Psámate está situada cerca de la teórica órbita estable de Neptuno para un cuerpo con movimiento retrógrado.",
+      "diameter": "38 km",
+      "mass": "0.0002x10^20",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/psamate.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/psamate.png"
+    },
+    {
+      "id": 133,
+      "name": "Neso",
+      "planet": "Neptuno",
+      "description": "Neso orbita a Neptuno a una distancia de más de 48 millones de kilómetros, lo que lo hace el satélite natural más distante conocido de cualquier planeta. Su afelio se encuentra a más de 72 millones de kilómetros de Neptuno.",
+      "diameter": "60 km",
+      "mass": "190x10^15 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/neso.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/neso.png"
+    },
+    {
+      "id": 134,
+      "name": "Hipocampo",
+      "planet": "Neptuno",
+      "description": "Hipocampo es tan tenue que no fue observado por la sonda espacial Voyager 2 cuando sobrevoló el sistema neptuniano en 1989. Tiene unos 35 kilómetros de diámetro y orbita a Neptuno en aproximadamente 22 horas y 48 minutos, poco menos de un día terrestre",
+      "diameter": "18 km",
+      "mass": "",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/hipocampo.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/satelites/hipocampo.png"
+    },
+    {
+      "id": 135,
+      "name": "Caronte",
+      "planet": "Plutón",
+      "description": "La superficie de Caronte parece estar dominada por el hielo de agua. Asimismo parece no tener atmósfera. En 2007, las observaciones llevadas a cabo por el Observatorio Gemini de hidratos de amoníaco y cristales de agua en la superficie de Caronte sugirieron la presencia de criogéiseres activos.",
+      "diameter": "1208 km",
+      "mass": "(1,52±0,06)x10^21 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/caronte.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/caronte.png"
+    },
+    {
+      "id": 136,
+      "name": "Nix",
+      "planet": "Plutón",
+      "description": "Nix es un satélite del sistema binario constituido por Plutón y Caronte. Fue descubierto a finales de 2005 junto con Hidra y el telescopio espacial Hubble confirmó su presencia en febrero de 2006.",
+      "diameter": "42x36 km",
+      "mass": "5x10^16 - 2x10^18 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/nix.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/nix.png"
+    },
+    {
+      "id": 137,
+      "name": "Estigia",
+      "planet": "Plutón",
+      "description": "Estigia (fue denominado provisionalmente S/2012 P 1 y también como S/2012 (134340) 1 o P5) es un pequeño satélite natural del planeta enano Plutón, cuyo descubrimiento fue anunciado el 11 de julio de 2012 por Mark R. Showalter.",
+      "diameter": "10 - 25 km",
+      "mass": "7 500 000 000 000 000 kilogramos",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/estigia.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/estigia.png"
+    },
+    {
+      "id": 138,
+      "name": "Cerbero",
+      "planet": "Plutón",
+      "description": "El satélite orbita en la región entre Nix e Hydra y efectúa una órbita completa de Plutón cada casi 31 días terrestres.",
+      "diameter": "13-34 km",
+      "mass": "1,65x10^16 kg",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/cerbero.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/cerbero.png"
+    },
+    {
+      "id": 139,
+      "name": "Hidra",
+      "planet": "Plutón",
+      "description": "Se encuentra en el plano orbital de Caronte y su forma es altamente irregular y tiene un tamaño de 55x40 km.",
+      "diameter": "5x10^16 - 2x10^18 kg",
+      "mass": "55x40 km",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/hidra.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/pluto/satelites/hidra.png"
+    },
+    {
+      "id": 140,
+      "name": "Namaka",
+      "planet": "Haumea",
+      "description": "Namaka, también conocido como Haumea II, es el menor y más interior de los dos satélites conocidos del planeta enano Haumea.",
+      "diameter": "170 km",
+      "mass": "",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/haumea/satelites/namaka.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/haumea/satelites/namaka.png"
+    },
+    {
+      "id": 141,
+      "name": "Hi'iaka",
+      "planet": "Haumea",
+      "description": "Hi'iaka, también conocido como Haumea I, es el mayor y más exterior de los dos satélites conocidos del planeta enano Haumea.",
+      "diameter": "310 km",
+      "mass": "",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/haumea/satelites/hiiaka'webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/haumea/satelites/hi'iaka.png"
+    },
+    {
+      "id": 142,
+      "name": "S/2015 (136472)",
+      "planet": "Makemake",
+      "description": "S/2015 (136472) 1, también designado MK2 es el satélite natural de Makemake. Al principio se creía que Makemake era un planeta enano, ubicado en el cinturón de Kuiper, que no tenía satélite.",
+      "diameter": "175 km",
+      "mass": "",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/makemake/satelites/s2015136472.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/makemake/satelites/s2015136472.png"
+    },
+    {
+      "id": 143,
+      "name": "Disnomia",
+      "planet": "Eris",
+      "description": "El satélite parece cerca de sesenta veces menos luminoso que el propio planeta enano al que orbita, y hasta 500 veces más débil en el espectro visible.",
+      "diameter": "815 km",
+      "mass": "",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/eris/satelites/disnomia.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/eris/satelites/disnomia.png"
+    }
+  ]
+}

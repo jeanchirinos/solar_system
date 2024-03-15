@@ -3,10 +3,11 @@ import { getPlanets } from '@/api/getPlanets'
 import Layout from '@/layouts/Layout.astro'
 import { Image } from 'astro:assets'
 import { ShowPlanetLink } from '@/components/ShowPlanetLink'
+import { PlanetName } from '@/types/Planet'
 
 const { planets } = await getPlanets()
 
-const earth = planets.find(planet => planet.name === 'Tierra')!
+const earth = planets.find(planet => planet.name === PlanetName.Tierra)!
 ---
 
 <Layout>
@@ -47,7 +48,9 @@ const earth = planets.find(planet => planet.name === 'Tierra')!
       <section class='flex flex-col items-center gap-y-4'>
         <div class='text-center'>
           <span class='text-xl font-light uppercase sm:text-2xl'>Planeta</span>
-          <h2 class='text-4xl font-black uppercase sm:text-6xl'>{earth.name}</h2>
+          <h2 class='text-4xl font-black uppercase sm:text-6xl' transition:name='planet_name'>
+            {earth.name}
+          </h2>
         </div>
 
         <p class='max-w-prose'>{earth.description}</p>
@@ -58,9 +61,3 @@ const earth = planets.find(planet => planet.name === 'Tierra')!
     </div>
   </main>
 </Layout>
-
-<script>
-  window.addEventListener('scroll', () => {
-    scrollTo(0, 0)
-  })
-</script>

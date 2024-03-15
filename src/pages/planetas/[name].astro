@@ -4,9 +4,14 @@ import { CurrentPlanetWrapper } from '@/components/CurrentPlanetWrapper'
 import type { TransitionAnimationPair } from 'astro'
 import CurrentPlanet from '@/components/CurrentPlanet.astro'
 import { getPlanets } from '@/api/getPlanets'
+import { getSatellites } from '@/api/getSatellites'
+import type { PlanetName } from '@/types/Planet'
+import { Image } from 'astro:assets'
 
 export async function getStaticPaths() {
   const { planets } = await getPlanets()
+
+  const { satellites } = await getSatellites()
 
   function getPrevPlanet(index: number) {
     if (index === 0) return null
@@ -18,6 +23,10 @@ export async function getStaticPaths() {
     return planets[index + 1]
   }
 
+  function getPlanetSatellites(planet: PlanetName) {
+    return satellites.filter(satellite => satellite.planet === planet)
+  }
+
   const data = planets.map((planet, i) => {
     return {
       params: {
@@ -27,6 +36,7 @@ export async function getStaticPaths() {
         planet,
         prevPlanet: getPrevPlanet(i),
         nextPlanet: getNextPlanet(i),
+        satellites: getPlanetSatellites(planet.name),
       },
     }
   })
@@ -70,14 +80,56 @@ const customSlideViewTransitionNext = {
   backwards: animationBackwards,
 }
 
-const { planet, prevPlanet, nextPlanet } = Astro.props
+const { planet, prevPlanet, nextPlanet, satellites } = Astro.props
 ---
 
 <Layout title={planet.name} description={planet.description} image={planet.png!}>
   <div
-    class='mx-auto grid h-dvh max-h-[1000px] min-h-[500px] max-w-[1600px] grid-cols-1 grid-rows-[auto_minmax(0,1fr)_auto] gap-y-12 px-4 py-2'
+    class='mx-auto grid h-dvh max-h-[1000px] min-h-[500px] max-w-[1600px] grid-cols-1 gap-y-12 px-4 py-2 md:grid-rows-[auto_minmax(0,1fr)_auto]'
   >
-    <CurrentPlanetWrapper client:load {prevPlanet} {nextPlanet} {planet}>
+    <CurrentPlanetWrapper client:load {prevPlanet} {nextPlanet}>
+      <h1
+        class='text-center text-4xl font-black uppercase sm:text-6xl'
+        transition:name='planet_name'
+        slot='title'
+      >
+        {planet.name}
+      </h1>
+
+      <div
+        slot='satellites'
+        class='flex max-w-full flex-col justify-center gap-y-4 max-md:order-2 md:w-[250px]'
+      >
+        {
+          satellites.length > 0 && (
+            <>
+              <h2 class='text-center text-2xl font-bold uppercase sm:text-3xl'>
+                {satellites.length === 1 ? 'Satélite' : 'Satélites'}
+              </h2>
+              <div class='flex flex-wrap justify-center gap-3 overflow-y-auto'>
+                {satellites.map(satellite => (
+                  <div class='flex flex-col items-center gap-y-0.5'>
+                    {satellite.webp ? (
+                      <Image
+                        class='size-8'
+                        src={satellite.webp}
+                        alt={satellite.name}
+                        width={64}
+                        height={64}
+                      />
+                    ) : (
+                      <span class='size-8 rounded-full bg-neutral-700' />
+                    )}
+                    <span>{satellite.name}</span>
+                  </div>
+                ))}
+              </div>
+            </>
+          )
+        }
+      </div>
+
+      <!--  -->
       <CurrentPlanet
         slot='prev'
         {planet}
@@ -93,6 +145,24 @@ const { planet, prevPlanet, nextPlanet } = Astro.props
       />
 
       <CurrentPlanet slot='initial' {planet} transition:name='planeta_initial' />
+
+      <div
+        slot='moreInfo'
+        class='flex max-w-full flex-wrap justify-center gap-8 text-center md:w-[250px] md:flex-col md:items-end md:text-right'
+      >
+        <div>
+          <h3 class='text-2xl font-light uppercase'>Radio</h3>
+          <p class='text-neutral-400'>{planet.radius}</p>
+        </div>
+        <div>
+          <h3 class='text-2xl font-light uppercase'>Distancia orbital</h3>
+          <p class='text-neutral-400'>{planet.orbital_distance}</p>
+        </div>
+        <div>
+          <h3 class='text-2xl font-light uppercase'>Periodo orbital</h3>
+          <p class='text-neutral-400'>{planet.orbital_period}</p>
+        </div>
+      </div>
     </CurrentPlanetWrapper>
   </div>
 </Layout>

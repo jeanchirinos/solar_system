@@ -7,11 +7,22 @@ type Props = {
   prev?: any;
   next?: any;
   initial?: any;
-  planet: Planet;
+  title?: any;
+  satellites?: any;
+  moreInfo?: any;
 };
 
 export function CurrentPlanetWrapper(props: Props) {
-  const { prevPlanet, nextPlanet, prev, next, initial, planet } = props;
+  const {
+    prevPlanet,
+    nextPlanet,
+    prev,
+    next,
+    initial,
+    title,
+    satellites,
+    moreInfo,
+  } = props;
 
   // STATES
   const [isGoingTo, setIsGoingTo] = useState<
@@ -30,10 +41,6 @@ export function CurrentPlanetWrapper(props: Props) {
     }
 
     setIsGoingTo(localType);
-
-    // return () => {
-    //   localStorage.removeItem("type");
-    // };
   }, []);
 
   // FUNCTIONS
@@ -64,42 +71,44 @@ export function CurrentPlanetWrapper(props: Props) {
           <span className="max-sm:hidden">Inicio</span>
         </a>
 
-        <h1 className="text-center text-4xl font-black uppercase sm:text-6xl">
-          {planet.name}
-        </h1>
+        {title}
       </section>
 
-      <section>
-        <div
-          className={
-            isGoingTo === "prev"
-              ? "flex h-full items-center justify-center"
-              : "size-0 opacity-0"
-          }
-        >
-          {prev}
-        </div>
-        <div
-          className={
-            isGoingTo === "next"
-              ? "flex h-full items-center justify-center"
-              : "size-0 opacity-0"
-          }
-        >
-          {next}
-        </div>
-        <div
-          className={
-            isGoingTo === "unknown"
-              ? "flex h-full items-center justify-center"
-              : "size-0 opacity-0"
-          }
-        >
-          {initial}
-        </div>
-      </section>
+      <div className="flex justify-between gap-x-4 gap-y-16 max-md:order-2 max-md:flex-col">
+        {satellites}
+        <section className="max-md:-order-2">
+          <div
+            className={
+              isGoingTo === "prev"
+                ? "flex h-full items-center justify-center"
+                : "size-0 opacity-0"
+            }
+          >
+            {prev}
+          </div>
+          <div
+            className={
+              isGoingTo === "next"
+                ? "flex h-full items-center justify-center"
+                : "size-0 opacity-0"
+            }
+          >
+            {next}
+          </div>
+          <div
+            className={
+              isGoingTo === "unknown"
+                ? "flex h-full items-center justify-center"
+                : "size-0 opacity-0"
+            }
+          >
+            {initial}
+          </div>
+        </section>
+        {moreInfo}
+      </div>
 
-      <footer>
+      <footer className="max-md:order-1">
         <div className="flex justify-between text-lg">
           {prevPlanet && (
             <a

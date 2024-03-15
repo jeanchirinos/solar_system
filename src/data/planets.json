@@ -1,0 +1,280 @@
+{
+  "info": {
+    "count": 13
+  },
+  "planets": [
+    {
+      "id": 1,
+      "name": "Mercurio",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "Mercurio es el planeta del sistema solar más cercano al Sol y el más pequeño. Forma parte de los denominados planetas interiores y carece de satélites naturales al igual que Venus. Se conocía muy poco sobre su superficie hasta que fue enviada la sonda planetaria Mariner 10 y se hicieron observaciones con radar y radiotelescopios.",
+      "orbital_distance": "57.91 millones de km",
+      "orbital_period": "88 días",
+      "radius": "2439,7 km",
+      "volume": "6083x10^10 km³",
+      "diameter": "4879,4 km",
+      "mass": "3.3x10^23 kg",
+      "density": "5.427 g/cm³",
+      "gravity": "3.7 m/s²",
+      "temperature": "Entre -180 °C y los 430 °C",
+      "atmosphere": "Muy delgada, compuesta por trazas de gases como Oxígeno, Sodio, Hidrógeno, Helio y Potasio.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/mercurio/mercurio.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/mercurio/mercurio.png"
+    },
+    {
+      "id": 2,
+      "name": "Venus",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "Venus es el segundo planeta del sistema solar. Pese a situarse más lejos del Sol que Mercurio, Venus posee la atmósfera más caliente del sistema solar; esto se debe a que está principalmente compuesta por gases de efecto invernadero, como el dióxido de carbono, atrapando mucho más calor del Sol. Actualmente carece de agua líquida y sus condiciones en superficie se consideran incompatibles con la vida conocida.",
+      "orbital_distance": "108.2 millones de km",
+      "orbital_period": "225 días",
+      "radius": "6051,8 km",
+      "volume": "9284,9x10^10 km³",
+      "diameter": "12103,6 km",
+      "mass": "4.87x10^24 kg",
+      "density": "5.243 g/cm³",
+      "gravity": "8.87 m/s²",
+      "temperature": "Entre 462 °C y los 471 °C",
+      "atmosphere": "Predominantemente dióxido de carbono, con densas nubes de ácido sulfúrico.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/venus/venus.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/venus/venus.png"
+    },
+    {
+      "id": 3,
+      "name": "Tierra",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "La Tierra se formó hace aproximadamente 4550 millones de años y la vida surgió unos mil millones de años después. Es actualmente el único cuerpo astronómico donde se conoce la existencia de vida. La atmósfera y otras condiciones abióticas han sido alteradas significativamente por la biosfera del planeta, favoreciendo la proliferación de organismos aerobios, así como la formación de una capa de ozono que junto con el campo magnético terrestre bloquean la radiación solar dañina, permitiendo así la vida en la Tierra",
+      "orbital_distance": "149.6 millones de km",
+      "orbital_period": "365.25 días",
+      "radius": "6371 km",
+      "volume": "1083.21x10^10 km³",
+      "diameter": "12742 km",
+      "mass": "5.97x10^24 kg",
+      "density": "5.514 g/cm³",
+      "gravity": "9.807 m/s²",
+      "temperature": "Entre -89.2 °C y los 56.7 °C",
+      "atmosphere": "Nitrógeno, Oxígeno, Argón y Dióxido de Carbono.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/tierra/tierra.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/tierra/tierra.png"
+    },
+    {
+      "id": 4,
+      "name": "Marte",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "Marte es el cuarto planeta en orden de distancia al Sol, también es conocido como el planeta rojo debido a la apariencia rojiza que le confiere el óxido de hierro predominante en su superficie. Marte es el planeta interior más alejado del Sol. Es un planeta telúrico con una atmósfera delgada de dióxido de carbono, y tiene dos satélites pequeños y de forma irregular, Fobos y Deimos",
+      "orbital_distance": "227.9 millones de km",
+      "orbital_period": "687 días",
+      "radius": "3389.5 km",
+      "volume": "163.18x10^10 km³",
+      "diameter": "6792.4 km",
+      "mass": "6.39x10^23 kg",
+      "density": "3.9335 g/cm³",
+      "gravity": "3.711 m/s²",
+      "temperature": "Entre -87 °C y los 5 °C",
+      "atmosphere": "Dióxido de Carbono, Nitrógeno, Argón y Oxígeno.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/marte/marte.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/marte/marte.png"
+    },
+    {
+      "id": 5,
+      "name": "Júpiter",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "Júpiter es un cuerpo masivo gaseoso, formado principalmente por hidrógeno y helio, carente de una superficie interior definida. Entre los detalles atmosféricos es notable la Gran Mancha Roja (un enorme anticiclón situado en las latitudes tropicales del hemisferio sur), la estructura de nubes en bandas oscuras y zonas brillantes, y la dinámica atmosférica global determinada por intensos vientos zonales alternantes en latitud y con velocidades de hasta 140 m/s (504 km/h).",
+      "orbital_distance": "778.6 millones de km",
+      "orbital_period": "11.86 años",
+      "radius": "69911 km",
+      "volume": "1431280x10^10 km³",
+      "diameter": "142984 km",
+      "mass": "1.898x10^27 kg",
+      "density": "1.326 g/cm³",
+      "gravity": "24.79 m/s²",
+      "temperature": "Entre -108 °C y los -13 °C",
+      "atmosphere": "Hidrógeno, Helio y Metano.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/jupiter/jupiter.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/jupiter/jupiter.png"
+    },
+    {
+      "id": 6,
+      "name": "Saturno",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde la Tierra. Su nombre proviene del dios romano Saturno. Forma parte de los denominados planetas exteriores o gaseosos. El aspecto más característico de Saturno son sus brillantes y grandes anillos. Antes de la invención del telescopio, Saturno era el más lejano de los planetas conocidos y, a simple vista, no parecía luminoso ni interesante.",
+      "orbital_distance": "1426.6 millones de km",
+      "orbital_period": "29.46 años",
+      "radius": "58232 km",
+      "volume": "827130x10^23 km³",
+      "diameter": "120536 km",
+      "mass": "5.683x10^26 kg",
+      "density": "0.687 g/cm³",
+      "gravity": "10.44 m/s²",
+      "temperature": "Entre -139 °C y los -178 °C",
+      "atmosphere": "Hidrógeno y Helio.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/saturno/saturno.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/saturno/saturno.png"
+    },
+    {
+      "id": 7,
+      "name": "Urano",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "Urano es similar en composición a Neptuno. La atmósfera de Urano, aunque es similar a la de Júpiter y Saturno por estar compuesta principalmente de hidrógeno y helio, contiene una proporción superior tanto de hielo como de agua, amoníaco y metano, junto con trazas de hidrocarburos. Posee la atmósfera planetaria más fría del sistema solar, con una temperatura mínima de 49 K (-224 °C). Asimismo, tiene una estructura de nubes muy compleja, acomodada por niveles, donde se cree que las nubes más bajas están compuestas de agua y las más altas de metano. En contraste, el interior de Urano se encuentra compuesto principalmente de hielo y roca.",
+      "orbital_distance": "2870.9 millones de km",
+      "orbital_period": "84.01 años",
+      "radius": "25362 km",
+      "volume": "683410x10^23 km³",
+      "diameter": "51118 km",
+      "mass": "8.681x10^25 kg",
+      "density": "1.27 g/cm³",
+      "gravity": "8.87 m/s²",
+      "temperature": "Entre -224 °C y los -197 °C",
+      "atmosphere": "Hidrógeno, Helio y Metano.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/urano/urano.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/urano/urano.png"
+    },
+    {
+      "id": 8,
+      "name": "Neptuno",
+      "planet_type": {
+        "id": 1,
+        "name": "Planetas"
+      },
+      "description": "Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema solar. Forma parte de los denominados planetas exteriores, y dentro de estos, es uno de los gigantes helados, y es el primero que fue descubierto gracias a predicciones matemáticas.",
+      "orbital_distance": "4498.3 millones de km",
+      "orbital_period": "164.79 años",
+      "radius": "24622 km",
+      "volume": "625090x10^23 km³",
+      "diameter": "49528 km",
+      "mass": "1.024x10^26 kg",
+      "density": "1.638 g/cm³",
+      "gravity": "11.15 m/s²",
+      "temperature": "Entre -218 °C y los -200 °C",
+      "atmosphere": "Hidrógeno, Helio y Metano.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/neptuno/neptuno.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/neptuno/neptuno.png"
+    },
+    {
+      "id": 9,
+      "name": "Plutón",
+      "planet_type": {
+        "id": 2,
+        "name": "Planetas Enanos"
+      },
+      "description": "Plutón posee una órbita excéntrica y altamente inclinada con respecto a la eclíptica, que recorre acercándose en su perihelio hasta el interior de la órbita de Neptuno. Su gran distancia al Sol y a la Tierra, unida a su reducido tamaño, impide que brille por encima de la magnitud 13,8 en sus mejores momentos, por lo cual solo puede ser apreciado con telescopios a partir de los 200 mm de abertura, fotográficamente o con cámara CCD.",
+      "orbital_distance": "5906.4 millones de km",
+      "orbital_period": "247.94 años",
+      "radius": "1188.3 km",
+      "volume": "71800x10^10 km³",
+      "diameter": "2370 km",
+      "mass": "1.309x10^22 kg",
+      "density": "1.854 g/cm³",
+      "gravity": "0.62 m/s²",
+      "temperature": "Entre -233 °C y los -223 °C",
+      "atmosphere": "Nitrógeno, Metano y Monóxido de Carbono.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/pluton/pluton.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/pluton/pluton.png"
+    },
+    {
+      "id": 10,
+      "name": "Ceres",
+      "planet_type": {
+        "id": 2,
+        "name": "Planetas Enanos"
+      },
+      "description": "Ceres, el cuerpo menor del sistema solar n.º 1, es un planeta enano y el objeto astronómico más grande del cinturón de asteroides, región del sistema solar que se encuentra entre las órbitas de Marte y Júpiter.",
+      "orbital_distance": "413.7 millones de km",
+      "orbital_period": "4.6 años",
+      "radius": "473 km",
+      "volume": "2.77x10^10 km³",
+      "diameter": "946 km",
+      "mass": "9.393x10^20 kg",
+      "density": "2.161 g/cm³",
+      "gravity": "0.27 m/s²",
+      "temperature": "-105 °C",
+      "atmosphere": "Puede tener trazas de una atmósfera débil compuesta por vapor de agua.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/ceres/ceres.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/ceres/ceres.png"
+    },
+    {
+      "id": 11,
+      "name": "Haumea",
+      "planet_type": {
+        "id": 2,
+        "name": "Planetas Enanos"
+      },
+      "description": "Haumea es tan brillante como la nieve, con un albedo en el rango de 0,6-0,8,43 lo que está de acuerdo con la modelización de mejor ajuste de los espectros de superficie, que sugirió que entre el 66 y el 80 % de la superficie de Haumea parece ser hielo cristalino puro, con un contribuyente al alto albedo que podría ser cianuro de hidrógeno o arcillas de filosilicatos.",
+      "orbital_distance": "6478.1 millones de km",
+      "orbital_period": "283.28 años",
+      "radius": "816 km",
+      "volume": "4.23x10^10 km³",
+      "diameter": "1632 km",
+      "mass": "4.006x10^21 kg",
+      "density": "2.6 g/cm³",
+      "gravity": "0.401 m/s²",
+      "temperature": "-223 °C",
+      "atmosphere": "No tiene atmósfera.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/haumea/haumea.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/haumea/haumea.png"
+    },
+    {
+      "id": 12,
+      "name": "Makemake",
+      "planet_type": {
+        "id": 2,
+        "name": "Planetas Enanos"
+      },
+      "description": "Makemake es un planeta enano ubicado en el cinturón de Kuiper, siendo el tercero en tamaño en el Sistema Solar y uno de los objetos más grande del exterior de nuestro vecindario solar.",
+      "orbital_distance": "6850.3 millones de km",
+      "orbital_period": "309.88 años",
+      "radius": "715 km",
+      "volume": "3.14x10^10 km³",
+      "diameter": "1430 km",
+      "mass": "3.1x10^21 kg",
+      "density": "1.7 g/cm³",
+      "gravity": "0.5 m/s²",
+      "temperature": "-240 °C",
+      "atmosphere": "No tiene atmósfera.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/makemake/makemake.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/makemake/makemake.png"
+    },
+    {
+      "id": 13,
+      "name": "Eris",
+      "planet_type": {
+        "id": 2,
+        "name": "Planetas Enanos"
+      },
+      "description": "Es un objeto transneptuniano (TNO), miembro de una población de objetos de alta excentricidad conocida como disco disperso, y posee un satélite llamado Disnomia. Está ubicado en el cinturón de Kuiper.",
+      "orbital_distance": "10100 millones de km",
+      "orbital_period": "557 años",
+      "radius": "1163 km",
+      "volume": "6.59x10^10 km³",
+      "diameter": "2326 km",
+      "mass": "1.67x10^22 kg",
+      "density": "2.52 g/cm³",
+      "gravity": "0.82 m/s²",
+      "temperature": "Entre -217 °C y -243 °C",
+      "atmosphere": "Nitrógeno con rastros de Metano.",
+      "webp": "https://storage.nijui.com/sistemasolar/planetas/eris/eris.webp",
+      "png": "https://storage.nijui.com/sistemasolar/planetas/eris/eris.png"
+    }
+  ]
+}
