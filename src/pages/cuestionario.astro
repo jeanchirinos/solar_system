@@ -2,48 +2,83 @@
 import Header from '@/components/Header.astro'
 import Layout from '@/layouts/Layout.astro'
 import { getQuestions } from '@/api/getQuestions'
+import { sendAnswers } from '@/api/sendAnswers'
+import type { AnswersResult } from '@/types/Question'
 
 const { questions } = await getQuestions()
 
-// if (Astro.request.method === "POST") {
-//   try {
-//     const data = await Astro.request.formData();
-//     const name = data.get("username");
-//     const email = data.get("email");
-//     const password = data.get("password");
-//     // Do something with the data
-//   } catch (error) {
-//     if (error instanceof Error) {
-//       console.error(error.message);
-//     }
-//   }
-// }
+let result: AnswersResult | null = null
+
+if (Astro.request.method === 'POST') {
+  try {
+    const data = await Astro.request.formData()
+    const entries = Object.fromEntries(data.entries())
+
+    const values = Object.values(entries).join(',')
+
+    result = await sendAnswers(values)
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error(error.message)
+    }
+  }
+}
 ---
 
 <Layout>
   <Header />
   <main class='mx-auto w-[1600px] max-w-full px-4 py-10'>
     <h2 class='mb-4 text-2xl font-bold'>Cuestionario</h2>
-    <form method='POST' class='space-y-5'>
-      <ul class='list-decimal space-y-6 pl-4'>
-        {
-          questions.map(question => (
-            <li>
-              <span class='block'>{question.question}</span>
-              {question.options.map(option => (
-                <label class='flex gap-x-2'>
-                  <input type='radio' name={question.id.toString()} value={option.id} />
-                  <span class='text-neutral-300'>{option.option}</span>
-                </label>
-              ))}
-            </li>
-          ))
-        }
-      </ul>
 
-      <button class='w-36 max-w-full rounded-lg bg-white py-1 text-black hover:opacity-85'
-        >Enviar</button
-      >
-    </form>
+    {
+      result ? (
+        <div class='flex flex-col items-center gap-y-10 text-center'>
+          <div class='flex w-52 flex-col gap-y-10 rounded-md bg-neutral-700/50 p-4'>
+            <div>
+              <span>Tu resultado: </span>
+              <div class='text-2xl font-bold'>{result.percent}</div>
+            </div>
+
+            <div class='flex flex-col gap-y-2 text-neutral-300'>
+              <div>
+                <span class='text-neutral-400'>Correctas : </span>
+                <span>{result.score}</span>
+              </div>
+              <div>
+                <span class='text-neutral-400'>Total :</span>
+                <span>{result.totalQuestions} preguntas</span>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href='/cuestionario'
+            class='w-36 max-w-full rounded-lg bg-white py-1 text-black hover:opacity-85'
+          >
+            Repetir
+          </a>
+        </div>
+      ) : (
+        <form method='POST' class='space-y-5'>
+          <ul class='list-decimal space-y-6 pl-4'>
+            {questions.map(question => (
+              <li>
+                <span class='block'>{question.question}</span>
+                {question.options.map(option => (
+                  <label class='flex gap-x-2'>
+                    <input required type='radio' name={question.id.toString()} value={option.id} />
+                    <span class='text-neutral-300'>{option.option}</span>
+                  </label>
+                ))}
+              </li>
+            ))}
+          </ul>
+
+          <button class='w-36 max-w-full rounded-lg bg-white py-1 text-black hover:opacity-85 focus:animate-pulse'>
+            Enviar
+          </button>
+        </form>
+      )
+    }
   </main>
 </Layout>

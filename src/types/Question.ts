@@ -13,3 +13,9 @@ export type QuestionsInfo = {
   };
   questions: Question[];
 };
+
+export type AnswersResult = {
+  totalQuestions: number;
+  percent: string;
+  score: string;
+};

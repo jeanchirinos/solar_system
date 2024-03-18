@@ -1,11 +1,11 @@
-// import type { QuestionsInfo } from "@/types/Question";
+import type { AnswersResult } from "@/types/Question";
 
-export async function sendAnswers() {
+export async function sendAnswers(answersIds: string) {
   const response = await fetch(
-    `https://api-sistemasolar.nijui.com/api/get-answer/1,6`,
+    `https://api-sistemasolar.nijui.com/api/get-answer/${answersIds}`,
   );
 
   const data = await response.json();
 
-  // return data as QuestionsInfo;
+  return data as AnswersResult;
 }
