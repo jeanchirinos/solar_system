@@ -1,5 +1,4 @@
 import type { SatellitesInfo } from "@/types/Satellite";
-// import satellites from "@/data/satellites.json";
 
 export async function getSatellites() {
   const response = await fetch(
@@ -12,5 +11,4 @@ export async function getSatellites() {
   const data = await response.json();
 
   return data as SatellitesInfo;
-  // return satellites as SatellitesInfo;
 }

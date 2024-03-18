@@ -72,6 +72,25 @@ export function CurrentPlanetWrapper(props: Props) {
         </a>
 
         {title}
+
+        <a
+          href="/"
+          onClick={() => handleNavigation("unknown")}
+          className="absolute left-0 flex items-center gap-x-1.5 rounded-full border border-neutral-800 bg-[#1B1B1B]/80 px-4 py-2 text-neutral-300 backdrop-blur-lg hover:text-white sm:left-4"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="m12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81zM12 3L2 12h3v8h6v-6h2v6h6v-8h3"
+            />
+          </svg>
+          <span className="max-sm:hidden">Inicio</span>
+        </a>
       </section>
 
       <div className="flex justify-between gap-x-4 gap-y-16 max-md:order-2 max-md:flex-col">

@@ -1,5 +1,4 @@
 import type { PlanetsInfo } from "@/types/Planet";
-// import planets from "@/data/planets.json";
 
 export async function getPlanets() {
   const response = await fetch(
@@ -12,6 +11,4 @@ export async function getPlanets() {
   const data = await response.json();
 
   return data as PlanetsInfo;
-
-  // return planets as PlanetsInfo;
 }
