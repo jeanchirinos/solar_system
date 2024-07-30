@@ -2,7 +2,7 @@ import type { PlanetsInfo } from "@/types/Planet";
 
 export async function getPlanets() {
   const response = await fetch(
-    "https://api-sistemasolar.nijui.com/api/planets",
+    "https://api-sistemasolar.nijui.site/api/planets",
     {
       cache: "force-cache",
     },

@@ -2,7 +2,7 @@ import type { SatellitesInfo } from "@/types/Satellite";
 
 export async function getSatellites() {
   const response = await fetch(
-    `https://api-sistemasolar.nijui.com/api/satellites`,
+    `https://api-sistemasolar.nijui.site/api/satellites`,
     {
       cache: "force-cache",
     },

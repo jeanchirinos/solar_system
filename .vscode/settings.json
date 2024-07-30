@@ -11,21 +11,13 @@
     "**/.factorypath": true,
     "**/.project": true,
     "**/.settings": true,
-    "node_modules": true,
     ".gitignore": true,
     "README.md": true,
     "dist": true,
     ".prettierrc.mjs": true,
-    "src/env.d.ts": true
+    "src/env.d.ts": true,
+    "node_modules": true
   },
-  "hide-files.files": [
-    "node_modules",
-    ".gitignore",
-    "README.md",
-    "dist",
-    ".prettierrc.mjs",
-    "src/env.d.ts"
-  ],
   "prettier.documentSelectors": [
     "**/*.astro"
   ],
