@@ -1,23 +1,4 @@
 {
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**.exe": true,
-    "**/.classpath": true,
-    "**/.factorypath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    ".gitignore": true,
-    "README.md": true,
-    "dist": true,
-    ".prettierrc.mjs": true,
-    "src/env.d.ts": true,
-    "node_modules": true
-  },
   "prettier.documentSelectors": [
     "**/*.astro"
   ],
