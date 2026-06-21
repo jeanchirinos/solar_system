@@ -6,7 +6,8 @@ import { loadEnv } from "vite";
 import tailwindcss from "@tailwindcss/vite";
 
 const env = loadEnv(process.env.NODE_ENV ?? '', process.cwd(), "");
-const imagesDomain = new URL(env.IMAGES_URL).hostname;
+
+const imagesDomain = env.IMAGES_URL ? new URL(env.IMAGES_URL).hostname : '';
 
 // https://astro.build/config
 export default defineConfig({

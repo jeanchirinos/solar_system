@@ -30,7 +30,7 @@ const earth = planets.find(planet => planet.name === PlanetName.Tierra)!
 
         <ShowPlanetLink client:load />
       </section>
-      <Image src={`${ENV.IMAGES_URL}${earth.webp!}`} alt={earth.name ?? 'as'} inferSize transition:name='planeta_initial' />
+      <Image src={`${ENV.IMAGES_URL}${earth.webp!}`} alt={earth.name} width="512" height="512" transition:name='planeta_initial' />
     </div>
   </main>
 </Layout>

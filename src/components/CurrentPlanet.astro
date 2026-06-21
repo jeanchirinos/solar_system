@@ -15,7 +15,8 @@ const { planet } = Astro.props
   loading='eager'
   src={`${ENV.IMAGES_URL}${planet.webp!}`}
   alt={planet.name}
-  inferSize
+  width="512" 
+  height="512"
   class='max-sm -order-1 max-h-full w-auto'
   {...Astro.props}
 />
