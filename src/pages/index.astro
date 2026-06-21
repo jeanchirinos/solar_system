@@ -5,6 +5,7 @@ import { Image } from 'astro:assets'
 import { ShowPlanetLink } from '@/components/ShowPlanetLink'
 import { PlanetName } from '@/types/Planet'
 import Header from '@/components/Header.astro'
+import { ENV } from '@/constants/env'
 
 const { planets } = await getPlanets()
 
@@ -29,7 +30,7 @@ const earth = planets.find(planet => planet.name === PlanetName.Tierra)!
 
         <ShowPlanetLink client:load />
       </section>
-      <Image src={earth.webp!} alt={earth.name} inferSize transition:name='planeta_initial' />
+      <Image src={`${ENV.IMAGES_URL}${earth.webp!}`} alt={earth.name ?? 'as'} inferSize transition:name='planeta_initial' />
     </div>
   </main>
 </Layout>

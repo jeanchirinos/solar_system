@@ -1,8 +1,9 @@
+import { ENV } from "@/constants/env";
 import type { AnswersResult } from "@/types/Question";
 
 export async function sendAnswers(answersIds: string) {
   const response = await fetch(
-    `https://api-sistemasolar.nijui.site/api/get-answer/${answersIds}`,
+    `${ENV.API_URL}/api/get-answer/${answersIds}`,
   );
 
   const data = await response.json();

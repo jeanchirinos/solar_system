@@ -1,0 +1,19 @@
+services:
+  frontend:
+    build: .
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    ports:
+      - '0.0.0.0:4321:4321'
+    command: pnpm run dev
+    env_file:
+      - .env
+    networks:
+      - solar_system_network
+networks:
+  solar_system_network:
+    external: true
+    name: solar_system_network
+volumes:
+  node_modules:

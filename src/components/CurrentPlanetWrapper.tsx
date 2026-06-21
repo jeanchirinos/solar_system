@@ -1,3 +1,4 @@
+import { ENV } from "@/constants/env";
 import type { Planet } from "@/types/Planet";
 import { useState, useEffect } from "react";
 
@@ -29,6 +30,8 @@ export function CurrentPlanetWrapper(props: Props) {
     null | "unknown" | "prev" | "next"
   >(null);
 
+  const imageBaseUrl = ENV.PUBLIC_IMAGES_URL
+  
   // EFFECT
   useEffect(() => {
     const localType = localStorage.getItem("type");
@@ -151,12 +154,12 @@ export function CurrentPlanetWrapper(props: Props) {
               </svg>
 
               <div className="flex items-center gap-x-2 gap-y-1 max-sm:w-16 max-sm:flex-col">
-                <img
-                  src={prevPlanet.webp!}
-                  alt={prevPlanet.name}
-                  width={100}
-                  height={100}
-                />
+                  <img
+                    src={`${imageBaseUrl}${prevPlanet.webp!}`}
+                    alt={prevPlanet.name}
+                    width={100}
+                    height={100}
+                  />
                 <span>{prevPlanet?.name}</span>
               </div>
             </a>
@@ -169,12 +172,14 @@ export function CurrentPlanetWrapper(props: Props) {
               className="ml-auto flex items-center gap-x-2 transition-transform hover:scale-105"
             >
               <div className="flex items-center gap-x-2 gap-y-1 max-sm:w-16 max-sm:flex-col">
-                <img
-                  src={nextPlanet.webp!}
-                  alt={nextPlanet.name}
-                  width={100}
-                  height={100}
-                />
+                {
+                    <img
+                      src={`${imageBaseUrl}${nextPlanet.webp!}`}
+                      alt={nextPlanet.name}
+                      width={100}
+                      height={100}
+                    />
+                }
                 <span className="sm:order-0">{nextPlanet?.name}</span>
               </div>
 

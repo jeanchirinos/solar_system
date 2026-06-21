@@ -1,7 +1,7 @@
 ---
-import { ViewTransitions } from 'astro:transitions'
+import { ClientRouter } from 'astro:transitions'
 import Metadata from '@/components/Metadata.astro'
-import '@/globals.css'
+import '@/styles/global.css'
 
 interface Props {
   title?: string
@@ -16,8 +16,9 @@ interface Props {
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width' />
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+    <meta name="generator" content={Astro.generator} />
     <Metadata {...Astro.props} />
-    <ViewTransitions />
+    <ClientRouter />
   </head>
   <body>
     <slot />

@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets'
 import type { Planet } from '@/types/Planet'
+import { ENV } from '@/constants/env'
 
 interface Props {
   planet: Planet
@@ -12,7 +13,7 @@ const { planet } = Astro.props
 <Image
   slot='prev'
   loading='eager'
-  src={planet.webp!}
+  src={`${ENV.IMAGES_URL}${planet.webp!}`}
   alt={planet.name}
   inferSize
   class='max-sm -order-1 max-h-full w-auto'

@@ -1,8 +1,9 @@
+import { ENV } from "@/constants/env";
 import type { SatellitesInfo } from "@/types/Satellite";
 
 export async function getSatellites() {
   const response = await fetch(
-    `https://api-sistemasolar.nijui.site/api/satellites`,
+    `${ENV.API_URL}/api/satellites`,
     {
       cache: "force-cache",
     },
